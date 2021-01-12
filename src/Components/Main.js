@@ -98,10 +98,15 @@ class Main extends Component {
                 {" "}
                 I'm a software developer from Argentina.
                 <br />
-                I've been a developer for a few years now. I've coded more than
-                50 projects that you can check on my{" "}
-                <a className="link-reference" href="https://github.com/gb-simon">
-                  GitHub account.{" "}</a>
+                I've been a developer for a few years now. I've coded{" "}
+                <span className="bold">more than 50 projects</span> that you can
+                check on my{" "}
+                <a
+                  className="link-reference"
+                  href="https://github.com/gb-simon"
+                >
+                  GitHub account.{" "}
+                </a>
               </p>{" "}
               <Project
                 aos="fade-up"
@@ -128,12 +133,15 @@ class Main extends Component {
                 {" "}
                 I'm a software developer from Argentina.
                 <br />
-                I've been a developer for a few years now. I've coded more than
-                50 projects that you can check on my{" "}
-                <a className="link-reference" href="https://github.com/gb-simon">
-                  GitHub
-                {" "}
-                account.</a>
+                I've been a developer for a few years now. I've coded{" "}
+                <span className="bold">more than 50 projects</span> that you can
+                check on my{" "}
+                <a
+                  className="link-reference"
+                  href="https://github.com/gb-simon"
+                >
+                  GitHub account.
+                </a>
               </p>
               <Project
                 link="https://github.com/gb-simon/footballgame/"
