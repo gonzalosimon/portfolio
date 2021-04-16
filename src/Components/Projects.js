@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
+import "../Styles/projects.css";
 import "../Responsive.css";
 import "../Hamburgers.css";
 import Project from "./Project.js";
@@ -47,7 +48,7 @@ class Projects extends Component {
           <div className="navigation">
             <div className="simon">
               <Link to="/" className="active">
-                Gonzalo Simon
+                Gonzalo
               </Link>
             </div>
             <button

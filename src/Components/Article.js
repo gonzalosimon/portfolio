@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
 import '../Responsive.css';
+import "../Styles/articles.css";
 
 class Article extends Component {
-  render() {
+  render() {  
     return (
       <div data-aos={this.props.aos} className="article">
         <a href={this.props.link} target="_blank" rel="noopener noreferrer">

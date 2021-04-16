@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "../Responsive.css";
+import "../Styles/articles.css"
 import Article from "./Article.js";
 import articleone from "../assets/article-tn-01.png";
 import articletwo from "../assets/article-tn-02.png";
@@ -46,7 +47,7 @@ class Articles extends Component {
           <div className="navigation">
             <div className="simon">
               <Link to="/" className="active">
-                Gonzalo Simon
+                Gonzalo
               </Link>
             </div>
             <button
@@ -61,9 +62,7 @@ class Articles extends Component {
             <div className="overlay mobile">
               <div className="sub-menus">
                 <div className="main-mobile">
-                  <Link to="/">
-                    Home
-                  </Link>
+                  <Link to="/">Home</Link>
                 </div>
                 <div className="work-mobile">
                   <Link to="/projects">Work</Link>
@@ -80,9 +79,7 @@ class Articles extends Component {
             </div>
             <div className="navigation-sub">
               <div className="main">
-                <Link to="/">
-                  Home
-                </Link>
+                <Link to="/">Home</Link>
               </div>
               <div className="work">
                 <Link to="/projects">Work</Link>
@@ -108,10 +105,7 @@ class Articles extends Component {
                 <a
                   className="link-reference"
                   href="https://gonzalosimon.hashnode.dev/"
-                >
-                  {" "}
-                  I have a blog{" "}
-                </a>
+                >I have a blog</a>
                 where I like writing articles about my projects where I explain
                 the way I code and how I think my challenges and ideas.{" "}
               </p>

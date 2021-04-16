@@ -1,0 +1,97 @@
+/* ABOUT PAGE */
+
+.about-image {
+  height: auto;
+  width: 100%;
+  float: left;
+  border-radius: 15%;
+  max-height: 300px;
+  max-width: 250px;
+  box-shadow: 0px 0px 10px rgba(224, 224, 224, 0.5);
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  .about-image {
+    max-width: 150px;
+    max-height: 160px;
+    margin-left: 20%;
+  }
+  .about-title {
+    font-family: circular-std-bold, Arial, sans-serif;
+    padding-top: 15%;
+  }
+}
+
+.about-content {
+  margin-top: 50px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 21.5px;
+}
+
+.about-title {
+  font-family: circular-std-bold, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.about-content a:link,
+.about-content a:visited {
+  font-family: circular-std-medium, Arial, sans-serif;
+  text-decoration: none;
+  color: #02cf5d;
+}
+
+.about-content a:hover {
+  color: #000000;
+  text-decoration: none;
+  filter: brightness(0%);
+}
+
+.about-content img {
+  padding-left: 4px;
+  padding-top: 4px;
+  filter: invert(47%) sepia(79%) saturate(300%) hue-rotate(95deg)
+    brightness(119%) contrast(112%);
+  width: 0.7em;
+  height: 0.7em;
+}
+
+.about-resume {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+}
+
+.about-resume a {
+  text-decoration: none;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 210px;
+  height: 38px;
+  color: #02cf5d;
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  background-color: white;
+  border: 2px solid #02cf5d;
+  cursor: pointer;
+  border-radius: 38px;
+  transition: all 0.4s;
+  display: flex;
+}
+
+.about-resume a:hover {
+  color: white;
+  background-color: #02cf5d;
+  border: 2px solid #02cf5d;
+}
+
+.about-cv {
+ margin-right: 10px;
+} 
+.about-certification {
+  margin-left: 10px;
+}
