@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import "./App.css";
 import "./Responsive.css";
 import Main from "./Components/Main.js";
+import Projects from "./Components/Projects.js";
 import About from "./Components/About.js";
 import Articles from "./Components/Articles.js";
 import Footer from "./Components/Footer.js";
@@ -24,8 +25,9 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Route exact path="/" component={Main} />
-        <Route path="/articles" component={Articles} />
         <Route path="/about" component={About} />
+        <Route path="/articles" component={Articles} />
+        <Route path="/projects" component={Projects} />
         <Footer />
       </BrowserRouter>
     );

@@ -44,7 +44,7 @@ class Articles extends Component {
       <div className="body">
         <section className="header">
           <div className="navigation">
-            <div className="anne">
+            <div className="simon">
               <Link to="/" className="active">
                 Gonzalo Simon
               </Link>
@@ -59,9 +59,12 @@ class Articles extends Component {
               </span>
             </button>
             <div className="overlay mobile">
-              <div className="submenus">
+              <div className="sub-menus">
+                <div className="main-mobile">
+                  <Link to="/">Home</Link>
+                </div>
                 <div className="work-mobile">
-                  <Link to="/">Work</Link>
+                  <Link to="/projects">Work</Link>
                 </div>
                 <div className="articles-mobile">
                   <Link to="/articles" className="active">
@@ -74,8 +77,11 @@ class Articles extends Component {
               </div>
             </div>
             <div className="navigation-sub">
+              <div className="main">
+                <Link to="/">Home</Link>
+              </div>
               <div className="work">
-                <Link to="/">Work</Link>
+                <Link to="/projects">Work</Link>
               </div>
               <div className="articles">
                 <Link to="/articles" className="active">
@@ -88,9 +94,12 @@ class Articles extends Component {
             </div>
           </div>
           <div className="designer">JavaScript Developer</div>
-          <div className="speciality">MERN Developer</div>
+          <div className="speciality">MERN Stack</div>
         </section>
-        <section className="articles">
+        <section
+          className="
+        "
+        >
           {window.innerWidth <= 1009 ? (
             <div className="left">
               {/* All this articles belong to the estribor side */}

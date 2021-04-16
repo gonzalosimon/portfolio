@@ -36,7 +36,7 @@ class About extends Component {
       <div className="body">
         <section className="header">
           <div className="navigation">
-            <div className="anne">
+            <div className="simon">
               <Link to="/" className="active">
                 Gonzalo Simon
               </Link>
@@ -51,9 +51,12 @@ class About extends Component {
               </span>
             </button>
             <div className="overlay mobile">
-              <div className="submenus">
+              <div className="sub-menus">
+                <div className="main-mobile">
+                  <Link to="/">Home</Link>
+                </div>
                 <div className="work-mobile">
-                  <Link to="/">Work</Link>
+                  <Link to="/projects">Work</Link>
                 </div>
                 <div className="articles-mobile">
                   <Link to="/articles">Articles</Link>
@@ -66,8 +69,12 @@ class About extends Component {
               </div>
             </div>
             <div className="navigation-sub">
+              {" "}
+              <div className="main">
+                <Link to="/">Home</Link>
+              </div>
               <div className="work">
-                <Link to="/">Work</Link>
+                <Link to="/projects">Work</Link>
               </div>
               <div className="articles">
                 <Link to="/articles">Articles</Link>
@@ -80,7 +87,7 @@ class About extends Component {
             </div>
           </div>
           <div className="designer">JavaScript Developer</div>
-          <div className="speciality">MERN Developer</div>
+          <div className="speciality">MERN Stack</div>
         </section>
 
         <section className="about">
@@ -91,25 +98,20 @@ class About extends Component {
               <br />
               <p>
                 {" "}
-                I'm based in Cordoba, Argentina currently studying computer
-                sicence at Universidad Nacional de Cordoba.
+                I'm a FullStack developer based in Cordoba, Argentina. I'm
+                currently studying computer engineering at Universidad Nacional
+                de Cordoba.
               </p>
               <p>
-                I'm a Linux user, I have Fluent English, I'm native in Spanish
-                and I have Advance French skills.
+                I have Fluent English, I'm native in Spanish and I have Advance
+                French skills.
               </p>
             </div>
 
             <div data-aos="fade-up">
               <p>
-                I learned Responsive Web Desing with HTML and CSS. I've made a
-                lot of Python automatizations, and worked with JavaScript
-                algorithms and data structures.
-              </p>
-              <p>
-                Front End Libraries, on of my projects React and Redux. This is
-                what I used the most in my projects. This portfolio is made with
-                React!
+                I use React and Redux in most of my projects. (This portfolio is
+                pure React!)
               </p>
               <p>
                 With D3 I made beautiful graphics and tables on my projects of
@@ -117,18 +119,9 @@ class About extends Component {
                 AJAX.
               </p>
               <p>
-                I started using API's and Microservices with in projects a
-                little more complex. Managing Packages with npm. I practiced
-                with basic Node and Express Challenges. During this section I
-                also learned with MongoDB and Mongoose Challenges.{" "}
-              </p>
-              <p>
-                {" "}
+                In the Back-End stack I learned using Node and Express, MongoDB.
                 The last of the tools I learned on freeCodeCamp was the
-                Information Security with HelmetJS Challenges. HelmetJS is a
-                type of middleware for Express-based applications that
-                automatically sets HTTP headers to prevent sensitive information
-                from unintentionally being passed between the server and client.
+                Information Security with HelmetJS Challenges.{" "}
               </p>
             </div>
           </div>
@@ -139,7 +132,7 @@ class About extends Component {
           </a>
           <a href="https://drive.google.com/file/d/1OQULoHEVpPO02y1rDZCgYyJULCK9LSv7/view?usp=sharing">
             My CV
-          </a> 
+          </a>
         </div>
         <p className="about-content credit">
           {" "}

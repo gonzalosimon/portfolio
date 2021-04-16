@@ -3,20 +3,10 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import "../Responsive.css";
 import "../Hamburgers.css";
-import Project from "./Project.js";
-import projectone from "../assets/project-tn-01.png";
-import projecttwo from "../assets/project-tn-02.png";
-import projectthree from "../assets/project-tn-03.png";
-import projectfour from "../assets/project-tn-04.png";
-import projectfive from "../assets/project-tn-05.png";
+import profile from "../assets/profile.png";
 
 class Main extends Component {
   state = {
-    projectOneImage: projectone,
-    projectTwoImage: projecttwo,
-    projectThreeImage: projectthree,
-    projectFourImage: projectfour,
-    projectFiveImage: projectfive,
     hamburgerState: "off",
   };
 
@@ -45,9 +35,9 @@ class Main extends Component {
       <div className="body">
         <section className="header">
           <div className="navigation">
-            <div className="anne">
+            <div className="simon">
               <Link to="/" className="active">
-                Gonzalo Simon
+                Gonzalo
               </Link>
             </div>
             <button
@@ -60,11 +50,15 @@ class Main extends Component {
               </span>
             </button>
             <div className="overlay mobile">
-              <div className="submenus">
-                <div className="work-mobile">
+              <div className="sub-menus">
+                <div className="main-mobile">
                   <Link to="/" className="active">
-                    Work
+                    Home
                   </Link>
+                </div>
+
+                <div className="work-mobile">
+                  <Link to="/projects">Work</Link>
                 </div>
                 <div className="articles-mobile">
                   <Link to="/articles">Articles</Link>
@@ -75,10 +69,13 @@ class Main extends Component {
               </div>
             </div>
             <div className="navigation-sub">
-              <div className="work">
+              <div className="main">
                 <Link to="/" className="active">
-                  Work
+                  Home
                 </Link>
+              </div>
+              <div className="work">
+                <Link to="/projects">Work</Link>
               </div>
               <div className="articles">
                 <Link to="/articles">Articles</Link>
@@ -89,145 +86,22 @@ class Main extends Component {
             </div>
           </div>
           <div className="designer">JavaScript Developer</div>
-          <div className="speciality">MERN Developer</div>
+          <div className="speciality">MERN Stack</div>
         </section>
-        <section className="projects">
-          {window.innerWidth <= 1009 ? (
-            <div className="left">
-              <p className="projects-intro">
-                {" "}
-                I'm a software developer from Argentina.
-                <br />
-                I've been a developer for a few years now. I've coded{" "}
-                <span className="bold">more than 50 projects</span> that you can
-                check on my{" "}
-                <a
-                  className="link-reference"
-                  href="https://github.com/gb-simon"
-                >
-                  GitHub account.{" "}
-                </a>
-              </p>{" "}
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/wikipedia-viewer"
-                image={this.state.projectThreeImage}
-                class="project-default"
-                title="Wikipedia Viewer"
-                category="PC / Mobile Web"
-                index="0"
-              />
-              <Project
-                link="https://github.com/gb-simon/footballgame/"
-                aos="fade-up"
-                image={this.state.projectOneImage}
-                class="project-default"
-                title="Football Game with JavaScript"
-                category="Browser video-game"
-                index="1"
-              />
+
+        <div className="container">
+          <div className="element-animation">
+            <div className="color-card-2">
+              <img src={profile} alt="Profile" class="profile" />
+              <h1 className="title-2">Gonzalo Simon</h1>
+              <p className="job-title"> Full Stack Developer</p>
+              <div className="desc top">
+                <p>I'm currently studying computer engineering</p>
+              </div>
+              <button className="btn"> Contact </button>
             </div>
-          ) : (
-            <div className="left">
-              <p className="projects-intro">
-                {" "}
-                I'm a software developer from Argentina.
-                <br />
-                I've been a developer for a few years now. I've coded{" "}
-                <span className="bold">more than 50 projects</span> that you can
-                check on my{" "}
-                <a
-                  className="link-reference"
-                  href="https://github.com/gb-simon"
-                >
-                  GitHub account.
-                </a>
-              </p>
-              <Project
-                link="https://github.com/gb-simon/footballgame/"
-                aos="fade-up"
-                image={this.state.projectOneImage}
-                class="project-default"
-                title="Football Game with JavaScript"
-                category="Browser video-game"
-                index="1"
-              />{" "}
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/password-generator"
-                image={this.state.projectTwoImage}
-                class="project-default"
-                title="Password Generator"
-                category="PC Application"
-                index="2"
-              />
-            </div>
-          )}
-          {window.innerWidth <= 1009 ? (
-            <div className="right">
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/socialMedia/"
-                image={this.state.projectFourImage}
-                color="rgba(233, 111, 94, 0.95)"
-                title="socialMedia - Twitter Clone"
-                class="project-last"
-                category="PC / Mobile Web"
-                index="3"
-              />
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/password-generator"
-                image={this.state.projectTwoImage}
-                class="project-default"
-                title="Password Generator"
-                category="PC Application"
-                index="2"
-              />
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/todoList-using-api-"
-                image={this.state.projectFiveImage}
-                class="project-default"
-                title="To-do App w/ API and React-Redux"
-                category="PC / Mobile Web"
-                index="4"
-              />
-            </div>
-          ) : (
-            <div className="right">
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/wikipedia-viewer"
-                image={this.state.projectThreeImage}
-                class="project-default"
-                title="Wikipedia Viewer"
-                category="PC / Mobile Web"
-                index="0"
-                color="rgba(11, 156, 150, 0.95)"
-              />
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/socialMedia/"
-                image={this.state.projectFourImage}
-                color="rgba(233, 111, 94, 0.95)"
-                title="socialMedia - Twitter Clone"
-                class="project-last"
-                category="PC / Mobile Web"
-                index="3"
-              />
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/todoList-using-api-"
-                image={this.state.projectFiveImage}
-                class="project-default"
-                title="To-do App w/ API and React - Redux"
-                category="PC / Mobile Web"
-                index="4"
-              />
-            </div>
-          )}
-        </section>
+          </div>
+        </div>
       </div>
     );
   }
