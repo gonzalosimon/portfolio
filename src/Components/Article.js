@@ -3,7 +3,7 @@ import '../App.css';
 import '../Responsive.css';
 
 class Article extends Component {
-  render() {
+  render() {  
     return (
       <div data-aos={this.props.aos} className="article">
         <a href={this.props.link} target="_blank" rel="noopener noreferrer">

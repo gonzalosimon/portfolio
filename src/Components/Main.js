@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
+import "../Styles/main.css";
 import "../Responsive.css";
 import "../Hamburgers.css";
 import profile from "../assets/profile.png";
@@ -92,13 +93,19 @@ class Main extends Component {
         <div className="container">
           <div className="element-animation">
             <div className="color-card-2">
-              <img src={profile} alt="Profile" class="profile" />
+              <img src={profile} alt="Profile" className="profile" />
               <h1 className="title-2">Gonzalo Simon</h1>
               <p className="job-title"> Full Stack Developer</p>
-              <div className="desc top">
-                <p>I'm currently studying computer engineering</p>
+              <div className="desc">
+                <p>studying computer engineering</p>
               </div>
-              <button className="btn"> Contact </button>
+              <a
+                href="mailto:aguilarsimon01@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn"> Contact </button>
+              </a>
             </div>
           </div>
         </div>

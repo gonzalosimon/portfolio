@@ -47,7 +47,7 @@ class Projects extends Component {
           <div className="navigation">
             <div className="simon">
               <Link to="/" className="active">
-                Gonzalo Simon
+                Gonzalo
               </Link>
             </div>
             <button

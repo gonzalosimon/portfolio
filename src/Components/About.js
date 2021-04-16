@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "../App.css";
-import "../Responsive.css";
-import profile from "../assets/profile.png";
+import profile from "../assets/profile_2.png";
 import link from "../assets/link-icon.svg";
+import "../App.css";
+import "../Styles/about.css";
+import "../Responsive.css";
 
 class About extends Component {
   state = {
@@ -38,7 +39,7 @@ class About extends Component {
           <div className="navigation">
             <div className="simon">
               <Link to="/" className="active">
-                Gonzalo Simon
+                Gonzalo
               </Link>
             </div>
             <button
@@ -127,25 +128,19 @@ class About extends Component {
           </div>
         </section>
         <div className="about-resume">
-          <a href="https://www.freecodecamp.org/certification/gonzalosimon/full-stack">
+          <a
+            className="about-certification"
+            href="https://www.freecodecamp.org/certification/gonzalosimon/full-stack"
+          >
             CERTIFICATION{" "}
           </a>
-          <a href="https://drive.google.com/file/d/1OQULoHEVpPO02y1rDZCgYyJULCK9LSv7/view?usp=sharing">
+          <a
+            className="about-cv"
+            href="https://drive.google.com/file/d/1OQULoHEVpPO02y1rDZCgYyJULCK9LSv7/view?usp=sharing"
+          >
             My CV
           </a>
         </div>
-        <p className="about-content credit">
-          {" "}
-          The portfolio's <strong>design idea</strong> is made by{" "}
-          <a
-            href="https://github.com/hermy0211/portfolio"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Anne Lee
-            <img className="link-icon" src={this.state.link} alt="Link Icon" />
-          </a>
-        </p>
       </div>
     );
   }
