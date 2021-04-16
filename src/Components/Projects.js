@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
-import "../Styles/projects.css";
 import "../Responsive.css";
 import "../Hamburgers.css";
 import Project from "./Project.js";

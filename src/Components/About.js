@@ -129,13 +129,13 @@ class About extends Component {
         </section>
         <div className="about-resume">
           <a
-            className="about-cv"
+            className="about-certification"
             href="https://www.freecodecamp.org/certification/gonzalosimon/full-stack"
           >
             CERTIFICATION{" "}
           </a>
           <a
-            className="about-certification"
+            className="about-cv"
             href="https://drive.google.com/file/d/1OQULoHEVpPO02y1rDZCgYyJULCK9LSv7/view?usp=sharing"
           >
             My CV

@@ -93,7 +93,7 @@ class Main extends Component {
         <div className="container">
           <div className="element-animation">
             <div className="color-card-2">
-              <img src={profile} alt="Profile" class="profile" />
+              <img src={profile} alt="Profile" className="profile" />
               <h1 className="title-2">Gonzalo Simon</h1>
               <p className="job-title"> Full Stack Developer</p>
               <div className="desc">

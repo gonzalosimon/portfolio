@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
 import '../Responsive.css';
-import "../Styles/articles.css";
 
 class Article extends Component {
   render() {  

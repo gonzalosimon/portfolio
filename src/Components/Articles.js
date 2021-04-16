@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "../Responsive.css";
-import "../Styles/articles.css"
 import Article from "./Article.js";
 import articleone from "../assets/article-tn-01.png";
 import articletwo from "../assets/article-tn-02.png";
@@ -105,8 +104,10 @@ class Articles extends Component {
                 <a
                   className="link-reference"
                   href="https://gonzalosimon.hashnode.dev/"
-                >I have a blog</a>
-                where I like writing articles about my projects where I explain
+                >
+                  I have a blog
+                </a>
+                 where I like writing articles about my projects where I explain
                 the way I code and how I think my challenges and ideas.{" "}
               </p>
               <Article
