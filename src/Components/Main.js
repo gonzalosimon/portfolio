@@ -41,6 +41,7 @@ class Main extends Component {
                 Gonzalo
               </Link>
             </div>
+            
             <button
               className="hamburger hamburger--spin mobile"
               type="button"
@@ -97,7 +98,7 @@ class Main extends Component {
               <h1 className="title-2">Gonzalo Simon</h1>
               <p className="job-title"> Full Stack Developer</p>
               <div className="desc">
-                <p>studying computer engineering</p>
+                <p className="location">Córdoba, Argentina</p>
               </div>
               <a
                 href="mailto:aguilarsimon01@gmail.com"

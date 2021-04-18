@@ -1,9 +1,23 @@
 /* Footer */
 .footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
-  display: flex;
   flex-wrap: wrap;
   align-items: center;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 14px;
+  color: #b1b1b1;
+  line-height: 36px;
+  width: 100%;
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  .footer {
+
+    margin-bottom: 10%;
+  }
 }
 
 .footer .footer-statement {
@@ -48,182 +62,13 @@
   padding: 10px 8px 10px 8px;
 }
 
+.footer .social-links .social .github {
+  width: 16px;
+  height: 12px;
+  padding: 10px 8px 10px 8px;
+}
+
 .footer .social-links .social-last .blog {
-  width: 16px;
-  height: 12px;
-  padding: 10px 8px 10px 8px;
-}
-
-.footer {
-  font-family: circular-std-book, Arial, sans-serif;
-  font-size: 14px;
-  color: #b1b1b1;
-  line-height: 36px;
-  margin: 20px auto 0px auto;
-  width: 100%;
-}
-
-/* Project Header Styles */
-
-.header-project {
-  width: 784px;
-  height: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 115px;
-  font-family: circular-std-medium, Arial, sans-serif;
-  z-index: 10;
-}
-
-.header-project .navigation {
-  width: 100%;
-  display: flex;
-}
-
-.header-project .navigation .navigation-sub div a,
-.header-project .navigation .moi a {
-  text-decoration: none;
-  transition: color 0.2s;
-  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
-}
-
-.header-project .navigation .navigation-sub div a:hover,
-.header-project .navigation .moi a:hover {
-  color: white !important;
-}
-
-.header-project .navigation .navigation-sub div a:visited,
-.header-project .navigation .moi a:visited {
-  color: inherit;
-}
-
-.header-project .overlay {
-  visibility: hidden;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0;
-  transition: opacity 0.5s;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.header-project .overlay .sub-menus {
-  height: 180px;
-  margin-top: auto;
-  margin-bottom: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.header-project .overlay .sub-menus .work-mobile,
-.header-project .overlay .sub-menus .articles-mobile,
-.header-project .overlay .sub-menus .about-mobile {
-  width: 100%;
-  font-size: 24px;
-}
-
-.header-project .overlay .sub-menus div a {
-  color: #bbbbbb !important;
-  text-decoration: none;
-}
-
-.header-project .overlay .sub-menus div a:hover {
-  color: black !important;
-}
-
-.show {
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-.hide {
-  visibility: hidden !important;
-}
-
-.header-project .navigation-sub {
-  width: 276px;
-  font-size: 22px;
-  display: flex;
-}
-
-.header-project .navigation .moi {
-  font-size: 26px;
-  width: calc(100% - 276px);
-  line-height: 36px;
-  color: white;
-}
-
-.header-project .navigation .navigation-sub .work,
-.main .header-project .navigation .navigation-sub .articles {
-  padding-right: 40px;
-}
-
-/* Footer */
-.footer {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.footer .footer-statement {
-  font-family: circular-std-medium, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 28px;
-  margin: 0px auto 11px auto;
-  width: 100%;
-}
-
-.footer .social-links {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.footer .social-links .social {
-  background-color: #000000;
-  border-radius: 32px;
-  width: 32px;
-  height: 32px;
-  margin-right: 8px;
-}
-
-.footer .social-links .social-last {
-  background-color: #000000;
-  border-radius: 32px;
-  width: 32px;
-  height: 32px;
-  margin-right: 0px;
-}
-
-.footer .social-links .social .github {
-  width: 19px;
-  height: 12px;
-  padding: 10px 6.5px 10px 6.5px;
-}
-
-.footer .social-links .social .linkedin {
-  width: 16px;
-  height: 14px;
-  padding: 8px 8px 10px 8px;
-}
-
-.footer .social-links .social .github {
-  width: 16px;
-  height: 12px;
-  padding: 10px 8px 10px 8px;
-}
-
-.footer .social-links .social-last .email {
   width: 16px;
   height: 12px;
   padding: 10px 8px 10px 8px;

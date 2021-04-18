@@ -18,7 +18,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <div className="footer-statement">Contact</div>
+        <div className="footer-statement">My Networks </div>
         <div className="social-links">
           <div className="social">
             <a
