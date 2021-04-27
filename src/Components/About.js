@@ -136,7 +136,7 @@ class About extends Component {
           </a>
           <a
             className="about-cv"
-            href="https://drive.google.com/file/d/1OQULoHEVpPO02y1rDZCgYyJULCK9LSv7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1maDbiK580WqxJsaYnjj7UJ-R95fKP9Zn/view?usp=sharing"
           >
             My CV
           </a>
