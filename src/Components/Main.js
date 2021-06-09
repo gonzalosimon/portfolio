@@ -4,7 +4,6 @@ import "../App.css";
 import "../Styles/main.css";
 import "../Responsive.css";
 import "../Hamburgers.css";
-import profile from "../assets/profile.png";
 
 class Main extends Component {
   state = {
@@ -94,7 +93,7 @@ class Main extends Component {
         <div className="container">
           <div className="element-animation">
             <div className="color-card-2">
-              <img src={profile} alt="Profile" className="profile" />
+              <img src="https://avatars.githubusercontent.com/u/53063584?v=4" alt="Profile" className="profile" />
               <h1 className="title-2">Gonzalo Simon</h1>
               <p className="job-title"> Full Stack Developer</p>
               <div className="desc">
