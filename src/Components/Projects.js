@@ -117,16 +117,16 @@ class Projects extends Component {
             />
             <Project
               aos="fade-up"
-              link="https://github.com/Marcos-111/crazyPasswords"
+              link="https://github.com/gb-simon/url-shortener-microservice"
               class="project-default"
-              name="crazyPasswords"
-              title="Password Generator"
-              tools="React & Node.js"
+              name="URL Shortener"
+              title="URL Shortener Microservice"
+              tools="Node & MongoDB"
               index="2"
             />
             <Project
               aos="fade-up"
-              link="https://github.com/gb-simon/socialMedia/"
+              link="https://github.com/gb-simon/socialMedia"
               title="Social Media"
               class="project-last"
               name="Twitter Clone"
@@ -144,66 +144,48 @@ class Projects extends Component {
             />
             <Project
               aos="fade-up"
+              link="https://github.com/gb-simon/algorithms-solutions"
+              class="project-default"
+              title="Algorithms Repository"
+              name="+100 Algorithms"
+              tools="Mostly JS & Python"
+              index="5"
+            />
+            <Project
+              aos="fade-up"
               link="https://github.com/gb-simon/wikipedia-viewer"
               class="project-default"
               title="Wikipedia Viewer"
               name=""
               tools="React & Redux"
-              index="5"
-            />
-            <Project
-              aos="fade-up"
-              link="https://github.com/gb-simon/todoList-using-api-"
-              class="project-default"
-              title="Tasks App"
-              name="To-do App"
-              tools="MERN Stack - API"
               index="6"
             />
             <Project
               aos="fade-up"
-              link="https://github.com/gb-simon/socialMedia/"
-              title="Social Media"
+              link="https://github.com/gb-simon/cities-slider"
+              title="Cities Slider"
               class="project-last"
-              name="Twitter Clone"
-              tools="MERN Stack"
+              name="Argentine Cities Slider"
+              tools="React"
               index="8"
             />
             <Project
               aos="fade-up"
-              link="https://github.com/gb-simon/socialMedia/"
+              link="https://github.com/gb-simon/jsc-graphic "
               title="Social Media"
               class="project-last"
-              name="Twitter Clone"
-              tools="MERN Stack"
+              name="Average Life Expectancy"
+              tools="JS Charting"
               index="9"
             />
             <Project
               aos="fade-up"
-              link="https://github.com/gb-simon/socialMedia/"
-              title="Social Media"
+              link="https://github.com/gb-simon/treemap-diagram"
+              title="Movies Treemap Diagram"
               class="project-last"
-              name="Twitter Clone"
-              tools="MERN Stack"
+              name=" Treemap-diagram"
+              tools="D3"
               index="10"
-            />
-            <Project
-              aos="fade-up"
-              link="https://github.com/gb-simon/socialMedia/"
-              title="Social Media"
-              class="project-last"
-              name="Twitter Clone"
-              tools="MERN Stack"
-              index="11"
-            />
-            <Project
-              aos="fade-up"
-              link="https://github.com/gb-simon/socialMedia/"
-              title="Social Media"
-              class="project-last"
-              name="Twitter Clone"
-              tools="MERN Stack"
-              index="12"
             />
           </div>
         </section>
