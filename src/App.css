@@ -21,7 +21,7 @@ ul {
 .link-reference {
   text-decoration: none;
   color: black;
-  background: yellow;
+  background: rgb(168, 255, 168);
 }
 
 .location {
@@ -336,8 +336,21 @@ ul {
 
 /* Project List */
 
-.parole{
+.parole {
   font-weight: 600;
+}
+
+.highlight {
+  font-size: 21px;
+  background-color: rgb(225, 225, 255);
+}
+
+.highlight_1 {
+  background-color: rgb(255, 250, 180);
+}
+
+.highlight_2 {
+  background-color: rgb(219, 255, 166);
 }
 
 .projects {
@@ -347,7 +360,6 @@ ul {
   justify-content: space-between;
   display: grid;
   grid-template-columns: auto auto auto;
-
 }
 
 /* Individual Project */

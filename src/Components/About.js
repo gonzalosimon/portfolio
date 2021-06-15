@@ -91,7 +91,7 @@ class About extends Component {
         </section>
 
         <section className="about">
-          <img src="https://instagram.fcor2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/192290918_320407989527891_9207379711564585682_n.jpg?tp=1&_nc_ht=instagram.fcor2-2.fna.fbcdn.net&_nc_ohc=cVmYtfuU1x0AX_2qMGg&tn=wGhP5Wir4zYC46CG&edm=ABfd0MgBAAAA&ccb=7-4&oh=9b1f34e8cc7cd1e7c117d01bcd590ba6&oe=60CF2425&_nc_sid=7bff83" alt="Profile" className="element-animation about-image" />
+          <img src="https://avatars.githubusercontent.com/u/53063584?v=4" alt="Profile" className="element-animation about-image" />
           <div className="about-content">
             <div>
               <span className="about-title">About me</span>
