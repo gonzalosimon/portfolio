@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
-import "../Styles/main.css";
+import "../styles/main.css";
 import "../Responsive.css";
 import "../Hamburgers.css";
 
@@ -40,7 +40,7 @@ class Main extends Component {
                 Gonzalo
               </Link>
             </div>
-            
+
             <button
               className="hamburger hamburger--spin mobile"
               type="button"
@@ -92,20 +92,17 @@ class Main extends Component {
 
         <div className="container">
           <div className="element-animation">
-            <div className="color-card-2">
-              <img src="https://avatars.githubusercontent.com/u/53063584?v=4" alt="Profile" className="profile" />
-              <h1 className="title-2">Gonzalo Simon</h1>
-              <p className="job-title"> Full Stack Developer</p>
+            <div className="description">
+              <img
+                src="https://avatars.githubusercontent.com/u/53063584?v=4"
+                alt="Profile"
+                className="profile"
+              />
+              <h2>Gonzalo Simon</h2>
+              <p> Full Stack Developer</p>
               <div className="desc">
-                <p className="location">Córdoba, Argentina</p>
+                <p>Córdoba, Argentina</p>
               </div>
-              <a
-                href="mailto:aguilarsimon01@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="btn"> Contact </button>
-              </a>
             </div>
           </div>
         </div>

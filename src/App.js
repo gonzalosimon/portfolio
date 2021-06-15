@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import "./App.css";
 import "./Responsive.css";
-import Main from "./Components/Main.js";
-import Projects from "./Components/Projects.js";
-import About from "./Components/About.js";
-import Articles from "./Components/Articles.js";
-import Footer from "./Components/Footer.js";
+import Main from "./components/Main.js";
+import Projects from "./components/Projects.js";
+import About from "./components/About.js";
+import Articles from "./components/Articles.js";
+import Footer from "./components/Footer.js";
 import AOS from "aos";
 
 class App extends Component {

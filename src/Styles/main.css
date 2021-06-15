@@ -1,5 +1,7 @@
 /* MAIN PAGE */
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 /* Main Card */
 
 .container {
@@ -16,55 +18,23 @@
   clear: both;
 }
 
-.title-2 {
-  font-family: roboto;
-  weight: 400;
-}
-.job-title {
-  font-size: 20px;
-  weight: 200;
-  font-family: roboto;
+.description {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
 }
 
 .desc {
-  font-size: 15px;
+  font-size: 20px;
   margin-left: 65px;
   margin-right: 65px;
   color: #323235;
   text-align: center;
 }
 
-.btn {
-  background: #2d354a;
-  border: none;
-  height: 40px;
-  color: #ffffff;
-  width: 35%;
-  font-size: 16px;
-  border-radius: 30px;
-  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
-}
-.btn:hover {
-  border: solid 1px #4e5b7e;
-  height: 40px;
-  font-family: Roboto;
-  color: rgb(0, 0, 0);
-  background: #ffffff;
-  width: 35%;
-  border-color: linear-gradient(to top right, #8162ce, #f54ba5);
-  border-radius: 30px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
-  cursor: pointer;
-}
-
-.img {
-  width: 280px;
-}
-
 .profile {
-  border-radius: 50%;
-  width: 132px;
-  height: 128px;
+  border-radius: 45%;
+  width: 232px;
+  height: 228px;
 }
 
 .element-animation {

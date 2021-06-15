@@ -4,19 +4,9 @@ import "../App.css";
 import "../Responsive.css";
 import "../Hamburgers.css";
 import Project from "./Project.js";
-import projectone from "../assets/project-tn-01.png";
-import projecttwo from "../assets/project-tn-02.png";
-import projectthree from "../assets/project-tn-03.png";
-import projectfour from "../assets/project-tn-04.png";
-import projectfive from "../assets/project-tn-05.png";
 
 class Projects extends Component {
   state = {
-    projectOneImage: projectone,
-    projectTwoImage: projecttwo,
-    projectThreeImage: projectthree,
-    projectFourImage: projectfour,
-    projectFiveImage: projectfive,
     hamburgerState: "off",
   };
 
@@ -97,142 +87,125 @@ class Projects extends Component {
           <div className="designer">JavaScript Developer</div>
           <div className="speciality">MERN Stack</div>
         </section>
-        <section className="projects">
-          {window.innerWidth <= 1009 ? (
-            <div className="left">
-              <p className="projects-intro">
-                {" "}
-                I'm a software developer from Argentina.
-                <br />
-                I've been a developer for a few years now. I've coded{" "}
-                <span className="bold">more than 50 projects</span> that you can
-                check on my{" "}
-                <a
-                  className="link-reference"
-                  href="https://github.com/gb-simon"
-                >
-                  GitHub account.{" "}
-                </a>
-              </p>{" "}
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/wikipedia-viewer"
-                image={this.state.projectThreeImage}
-                class="project-default"
-                title="Wikipedia Viewer"
-                category="PC / Mobile Web"
-                index="0"
-              />
-              <Project
-                link="https://github.com/gb-simon/footballgame/"
-                aos="fade-up"
-                image={this.state.projectOneImage}
-                class="project-default"
-                title="Football Game with JavaScript"
-                category="Browser video-game"
-                index="1"
-              />
-            </div>
-          ) : (
-            <div className="left">
-              <p className="projects-intro">
-                {" "}
-                I'm a software developer from Argentina.
-                <br />
-                I've been a developer for a few years now. I've coded{" "}
-                <span className="bold">more than 50 projects</span> that you can
-                check on my{" "}
-                <a
-                  className="link-reference"
-                  href="https://github.com/gb-simon"
-                >
-                  GitHub account.
-                </a>
-              </p>
-              <Project
-                link="https://github.com/gb-simon/footballgame/"
-                aos="fade-up"
-                image={this.state.projectOneImage}
-                class="project-default"
-                title="Football Game with JavaScript"
-                category="Browser video-game"
-                index="1"
-              />{" "}
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/password-generator"
-                image={this.state.projectTwoImage}
-                class="project-default"
-                title="Password Generator"
-                category="PC Application"
-                index="2"
-              />
-            </div>
-          )}
-          {window.innerWidth <= 1009 ? (
-            <div className="right">
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/socialMedia/"
-                image={this.state.projectFourImage}
-                color="rgba(233, 111, 94, 0.95)"
-                title="socialMedia - Twitter Clone"
-                class="project-last"
-                category="PC / Mobile Web"
-                index="3"
-              />
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/password-generator"
-                image={this.state.projectTwoImage}
-                class="project-default"
-                title="Password Generator"
-                category="PC Application"
-                index="2"
-              />
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/todoList-using-api-"
-                image={this.state.projectFiveImage}
-                class="project-default"
-                title="To-do App w/ API and React-Redux"
-                category="PC / Mobile Web"
-                index="4"
-              />
-            </div>
-          ) : (
-            <div className="right">
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/wikipedia-viewer"
-                image={this.state.projectThreeImage}
-                class="project-default"
-                title="Wikipedia Viewer"
-                category="PC / Mobile Web"
-                index="0"
-                color="rgba(11, 156, 150, 0.95)"
-              />
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/socialMedia/"
-                image={this.state.projectFourImage}
-                color="rgba(233, 111, 94, 0.95)"
-                title="socialMedia - Twitter Clone"
-                class="project-last"
-                category="PC / Mobile Web"
-                index="3"
-              />
-              <Project
-                aos="fade-up"
-                link="https://github.com/gb-simon/todoList-using-api-"
-                image={this.state.projectFiveImage}
-                class="project-default"
-                title="To-do App w/ API and React - Redux"
-                category="PC / Mobile Web"
-                index="4"
-              />
-            </div>
-          )}
+
+        <section className="">
+          <p className="parole">
+            I've been coding for a few years, I have more than 50 projects that
+            you can check on my{" "}
+            <a className="link-reference" href="https://github.com/gb-simon">
+              GitHub account.
+            </a>
+          </p>
+          <div className="projects">
+            <Project
+              link="https://github.com/gb-simon/footballgame/"
+              aos="fade-up"
+              class="project-default"
+              name="Football Game with JavaScript"
+              title="Browser video-game"
+              tools="JavaScript"
+              index="0"
+            />{" "}
+            <Project
+              aos="fade-up"
+              link="https://github.com/Marcos-111/crazyPasswords"
+              class="project-default"
+              name="La Boutique de Marcos"
+              title="E-Commerce"
+              tools="Angular & TailwindCSS"
+              index="1"
+            />
+            <Project
+              aos="fade-up"
+              link="https://github.com/Marcos-111/crazyPasswords"
+              class="project-default"
+              name="crazyPasswords"
+              title="Password Generator"
+              tools="React & Node.js"
+              index="2"
+            />
+            <Project
+              aos="fade-up"
+              link="https://github.com/gb-simon/socialMedia/"
+              title="Social Media"
+              class="project-last"
+              name="Twitter Clone"
+              tools="MERN Stack"
+              index="3"
+            />
+            <Project
+              aos="fade-up"
+              link="https://github.com/gb-simon/todoList-using-api-"
+              class="project-default"
+              title="Tasks App"
+              name="To-do App"
+              tools="MERN Stack - API"
+              index="4"
+            />
+            <Project
+              aos="fade-up"
+              link="https://github.com/gb-simon/wikipedia-viewer"
+              class="project-default"
+              title="Wikipedia Viewer"
+              name=""
+              tools="React & Redux"
+              index="5"
+            />
+            <Project
+              aos="fade-up"
+              link="https://github.com/gb-simon/todoList-using-api-"
+              class="project-default"
+              title="Tasks App"
+              name="To-do App"
+              tools="MERN Stack - API"
+              index="6"
+            />
+            <Project
+              aos="fade-up"
+              link="https://github.com/gb-simon/socialMedia/"
+              title="Social Media"
+              class="project-last"
+              name="Twitter Clone"
+              tools="MERN Stack"
+              index="8"
+            />
+            <Project
+              aos="fade-up"
+              link="https://github.com/gb-simon/socialMedia/"
+              title="Social Media"
+              class="project-last"
+              name="Twitter Clone"
+              tools="MERN Stack"
+              index="9"
+            />
+            <Project
+              aos="fade-up"
+              link="https://github.com/gb-simon/socialMedia/"
+              title="Social Media"
+              class="project-last"
+              name="Twitter Clone"
+              tools="MERN Stack"
+              index="10"
+            />
+            <Project
+              aos="fade-up"
+              link="https://github.com/gb-simon/socialMedia/"
+              title="Social Media"
+              class="project-last"
+              name="Twitter Clone"
+              tools="MERN Stack"
+              index="11"
+            />
+            <Project
+              aos="fade-up"
+              link="https://github.com/gb-simon/socialMedia/"
+              title="Social Media"
+              class="project-last"
+              name="Twitter Clone"
+              tools="MERN Stack"
+              index="12"
+            />
+          </div>
         </section>
       </div>
     );

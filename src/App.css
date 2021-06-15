@@ -1,11 +1,13 @@
 /* Import AOS */
 
 @import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 /* Global Styles */
 
 .body {
   width: 784px;
+  font-family: "Raleway", sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
@@ -29,10 +31,10 @@ ul {
 /* Header Styles */
 
 .header {
+  font-family: "Raleway", sans-serif;
   width: 100%;
   margin-top: 40px;
   margin-bottom: 26px;
-  font-family: circular-std-medium, Arial, sans-serif;
 }
 
 .header .navigation {
@@ -229,7 +231,6 @@ ul {
   padding-right: 40px;
 }
 
-
 /* ARTICLES PAGE */
 
 /* Articles List */
@@ -333,35 +334,20 @@ ul {
   margin-top: 10px;
 }
 
-
 /* Project List */
 
+.parole{
+  font-weight: 600;
+}
+
 .projects {
+  padding-top: 20px;
   width: 100%;
-  font-family: circular-std-medium, Arial, sans-serif;
-  display: flex;
+  font-family: "Raleway", sans-serif;
   justify-content: space-between;
-}
+  display: grid;
+  grid-template-columns: auto auto auto;
 
-.projects .left {
-  width: 369px;
-}
-
-.projects .left .projects-intro {
-  font-family: circular-std-book;
-  margin-top: 0px;
-  margin-bottom: 58px;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.projects .left .projects-intro .bold {
-  font-weight: bold;
-  font-family: circular-std-medium, Arial, sans-serif;
-}
-
-.projects .right {
-  width: 369px;
 }
 
 /* Individual Project */
@@ -379,32 +365,13 @@ ul {
   margin-bottom: 52px;
 }
 
-.project-last {
-  width: 100%;
-  margin-bottom: 0px;
-}
-
-.project-image {
-  width: 369px;
-  height: 369px;
-  overflow: hidden;
-  margin-bottom: 19px;
-  box-shadow: 0px 0px 20px #e8e8e8;
-}
-
-.project-image-size {
-  width: 369px;
-  height: 369px;
-  transition: transform 0.4s;
-}
-
 .project-title {
   font-size: 18px;
   line-height: 28px;
   transition: color 0.4s;
 }
 
-.project-category {
+.project-tools {
   font-family: circular-std-book, Arial, sans-serif;
   font-size: 18px;
   line-height: 28px;
