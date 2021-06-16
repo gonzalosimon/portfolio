@@ -156,7 +156,7 @@ class Projects extends Component {
               link="https://github.com/gb-simon/wikipedia-viewer"
               class="project-default"
               title="Wikipedia Viewer"
-              name=""
+              name="Wikipedia Finder"
               tools="React & Redux"
               index="6"
             />

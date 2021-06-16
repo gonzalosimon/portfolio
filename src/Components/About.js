@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import link from "../assets/link-icon.svg";
 import "../App.css";
 import "../styles/about.css";
 import "../Responsive.css";
@@ -8,7 +7,6 @@ import "../Responsive.css";
 class About extends Component {
   state = {
     hamburgerState: "off",
-    link: link,
   };
 
   componentDidMount() {
@@ -91,33 +89,30 @@ class About extends Component {
         </section>
 
         <section className="about">
-          <img src="https://avatars.githubusercontent.com/u/53063584?v=4" alt="Profile" className="element-animation about-image" />
+          <img
+            src="https://avatars.githubusercontent.com/u/53063584?v=4"
+            alt="Profile"
+            className="element-animation about-image"
+          />
           <div className="about-content">
             <div>
               <span className="about-title">About me</span>
-              <br />
+       
               <p>
-                {" "}
+              
                 I'm a FullStack developer based in Cordoba, Argentina. I'm
                 currently studying computer engineering at Universidad Nacional
                 de Cordoba.
               </p>
               <p>
                 I have Fluent English, I'm native in Spanish and I have Advance
-                French skills.
+                French skills. I use React and Redux in most of my projects.
+                (This portfolio is pure React!) With D3 I made beautiful
+                graphics and tables on my projects of Data Visutalization where
+                I also learned using JSON, APIs and AJAX.
               </p>
             </div>
-
             <div data-aos="fade-up">
-              <p>
-                I use React and Redux in most of my projects. (This portfolio is
-                pure React!)
-              </p>
-              <p>
-                With D3 I made beautiful graphics and tables on my projects of
-                Data Visutalization where I also learned using JSON, APIs and
-                AJAX.
-              </p>
               <p>
                 In the Back-End stack I learned using Node and Express, MongoDB.
                 The last of the tools I learned on freeCodeCamp was the
@@ -137,7 +132,13 @@ class About extends Component {
             className="about-cv"
             href="https://drive.google.com/file/d/13zh-meJF4Lzamsq26nL6TRu7ZCJ3fNIX/view?usp=sharing"
           >
-            My CV
+            MY CV
+          </a>
+          <a
+            className="about-cv"
+            href="https://www.linkedin.com/in/gonzalo-simon-aguilar/"
+          >
+            LINKEDIN
           </a>
         </div>
       </div>

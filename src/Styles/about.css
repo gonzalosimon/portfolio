@@ -1,4 +1,5 @@
 /* ABOUT PAGE */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 .about-image {
   height: auto;
@@ -20,26 +21,26 @@
     margin-left: 20%;
   }
   .about-title {
-    font-family: circular-std-bold, Arial, sans-serif;
+    font-family: "Raleway", sans-serif;
     padding-top: 15%;
   }
 }
 
 .about-content {
   margin-top: 50px;
-  font-family: circular-std-book, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 21.5px;
+  text-align: justify;
 }
 
 .about-title {
-  font-family: circular-std-bold, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 
 .about-content a:link,
 .about-content a:visited {
-  font-family: circular-std-medium, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: #02cf5d;
 }
@@ -61,18 +62,20 @@
 
 .about-resume {
   width: 100%;
+  font-family: "Raleway", sans-serif;
   margin-top: 40px;
+  font-weight: 800;
   display: flex;
+  justify-content: center;
 }
 
 .about-resume a {
   text-decoration: none;
-  justify-content: center !important;
-  align-items: center !important;
+  justify-content: center;
+  align-items: center;
   width: 210px;
   height: 38px;
   color: #02cf5d;
-  font-family: circular-std-medium, Arial, sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
   background-color: white;
@@ -90,13 +93,11 @@
 }
 
 .about-certifications {
- margin-right: 10px;
-} 
+  margin-right: 10px;
+}
 .about-cv {
   margin-left: 10px;
 }
-
-
 
 .element-animation {
   animation: animationFrames ease 2s;
