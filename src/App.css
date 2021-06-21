@@ -24,10 +24,6 @@ ul {
   background: rgb(168, 255, 168);
 }
 
-.location {
-  margin-bottom: 20px;
-}
-
 /* Header Styles */
 
 .header {
@@ -137,7 +133,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding-top: 115px;
-  font-family: circular-std-medium, Arial, sans-serif;
+  font-family: , sans-serif;
   z-index: 10;
 }
 
@@ -237,7 +233,7 @@ ul {
 
 .articles {
   width: 100%;
-  font-family: circular-std-medium, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   display: flex;
   justify-content: space-between;
 }
@@ -247,7 +243,8 @@ ul {
 }
 
 .articles .left .articles-intro {
-  font-family: circular-std-book;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
   margin-top: 0px;
   margin-bottom: 78px;
   font-size: 18px;
@@ -255,7 +252,7 @@ ul {
 }
 
 .articles .left .articles-intro .bold {
-  font-family: circular-std-medium, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .articles .right {
@@ -276,7 +273,8 @@ ul {
 .article-default,
 .article-last {
   width: 100%;
-  height: 369px;
+  background-color: rgb(255, 249, 225);
+
   box-sizing: border-box;
   border: 1px solid #e6e6e6;
   box-shadow: 0px 0px 20px rgba(217, 217, 217, 0.2);
@@ -290,38 +288,26 @@ ul {
   margin-bottom: 0px;
 }
 
-.article-image {
-  width: 367px;
-  height: 223px;
-  overflow: hidden;
-}
-
-.article-image-size {
-  width: 367px;
-  height: 223px;
-  transition: transform 0.4s;
-}
-
 .article-contents {
   padding: 19px 25px 19px 25px;
 }
 
 .article-title {
-  font-family: circular-std-medium, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 6px;
 }
 
 .article-subtitle {
-  font-family: circular-std-book, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 22px;
 }
 
 .article-date {
   color: #a0a0a0;
-  font-family: circular-std-book, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 12px;
   line-height: 28px;
 }
@@ -336,13 +322,9 @@ ul {
 
 /* Project List */
 
-.parole {
+.projects-intro {
   font-weight: 600;
-}
-
-.highlight {
-  font-size: 21px;
-  background-color: rgb(225, 225, 255);
+  font-size: 18px;
 }
 
 .highlight_1 {
@@ -384,8 +366,54 @@ ul {
 }
 
 .project-tools {
-  font-family: circular-std-book, Arial, sans-serif;
   font-size: 18px;
   line-height: 28px;
   transition: color 0.4s;
+}
+
+.element-animation {
+  animation: animationFrames ease 2s;
+  animation-iteration-count: 2;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards; /*when the spec is finished*/
+  -webkit-animation: animationFrames ease 1.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards; /*Chrome 16+, Safari 4+*/
+}
+
+@keyframes animationFrames {
+  0% {
+    opacity: 0;
+    transform: translate(-1500px, 0px);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(30px, 0px);
+  }
+  80% {
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-1500px, 0px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate(30px, 0px);
+  }
+  80% {
+    -webkit-transform: translate(-10px, 0px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0px, 0px);
+  }
 }

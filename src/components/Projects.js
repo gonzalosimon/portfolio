@@ -88,13 +88,13 @@ class Projects extends Component {
           <div className="speciality">MERN Stack</div>
         </section>
 
-        <section className="">
-          <p className="parole">
+        <section>
+          <p className="projects-intro">
             I've been coding for a few years, I have more than 50 projects that
             you can check on my{" "}
             <a className="link-reference" href="https://github.com/gb-simon">
-              GitHub account.
-            </a>
+              GitHub account
+            </a>.
           </p>
           <div className="projects">
             <Project

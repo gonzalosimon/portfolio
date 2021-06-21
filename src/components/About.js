@@ -97,49 +97,49 @@ class About extends Component {
           <div className="about-content">
             <div>
               <span className="about-title">About me</span>
-       
+
               <p>
-              
-                I'm a FullStack developer based in Cordoba, Argentina. I'm
+                I'm a Full-Stack developer based in Cordoba, Argentina. I'm
                 currently studying computer engineering at Universidad Nacional
                 de Cordoba.
               </p>
               <p>
-                I have Fluent English, I'm native in Spanish and I have Advance
-                French skills. I use React and Redux in most of my projects.
-                (This portfolio is pure React!) With D3 I made beautiful
-                graphics and tables on my projects of Data Visutalization where
-                I also learned using JSON, APIs and AJAX.
+                I've fluent English and advance French. I've been a developer
+                for a few years now, I made the{" "}
+                <a href="https://www.freecodecamp.org">freeCodeCamp </a>course between 2018
+                and 2019, using React and Redux in most of my projects (This
+                portfolio is pure React!). With D3 I made graphics and tables on
+                my projects of Data Visutalization where I also learned using
+                JSON, APIs and AJAX.
               </p>
             </div>
             <div data-aos="fade-up">
               <p>
                 In the Back-End stack I learned using Node and Express, MongoDB.
-                The last of the tools I learned on freeCodeCamp was the
-                Information Security with HelmetJS Challenges.{" "}
+                I made some challenges of Information Security using HelmetJS Challenges.{" "}
               </p>
             </div>
           </div>
         </section>
-        <div className="about-resume">
-          <a
+        <div className="about-buttons">
+          <button
             className="about-certification"
             href="https://www.freecodecamp.org/certification/gonzalosimon/full-stack"
           >
             CERTIFICATION{" "}
-          </a>
-          <a
+          </button>
+          <button
             className="about-cv"
             href="https://drive.google.com/file/d/13zh-meJF4Lzamsq26nL6TRu7ZCJ3fNIX/view?usp=sharing"
           >
             MY CV
-          </a>
-          <a
-            className="about-cv"
+          </button>
+          <button
+            className="about-linkedin"
             href="https://www.linkedin.com/in/gonzalo-simon-aguilar/"
           >
             LINKEDIN
-          </a>
+          </button>
         </div>
       </div>
     );
