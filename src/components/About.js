@@ -106,40 +106,41 @@ class About extends Component {
               <p>
                 I've fluent English and advance French. I've been a developer
                 for a few years now, I made the{" "}
-                <a href="https://www.freecodecamp.org">freeCodeCamp </a>course between 2018
-                and 2019, using React and Redux in most of my projects (This
-                portfolio is pure React!). With D3 I made graphics and tables on
-                my projects of Data Visutalization where I also learned using
-                JSON, APIs and AJAX.
+                <a href="https://www.freecodecamp.org">freeCodeCamp </a>course
+                between 2018 and 2019, using React and Redux in most of my
+                projects (This portfolio is pure React!). With D3 I made
+                graphics and tables on my projects of Data Visutalization where
+                I also learned using JSON, APIs and AJAX.
               </p>
             </div>
             <div data-aos="fade-up">
               <p>
                 In the Back-End stack I learned using Node and Express, MongoDB.
-                I made some challenges of Information Security using HelmetJS Challenges.{" "}
+                I made some challenges of Information Security using HelmetJS
+                Challenges.{" "}
               </p>
             </div>
           </div>
         </section>
-        <div className="about-buttons">
-          <button
+        <div className="about-links">
+          <a
             className="about-certification"
             href="https://www.freecodecamp.org/certification/gonzalosimon/full-stack"
           >
             CERTIFICATION{" "}
-          </button>
-          <button
+          </a>
+          <a
             className="about-cv"
             href="https://drive.google.com/file/d/13zh-meJF4Lzamsq26nL6TRu7ZCJ3fNIX/view?usp=sharing"
           >
             MY CV
-          </button>
-          <button
+          </a>
+          <a
             className="about-linkedin"
             href="https://www.linkedin.com/in/gonzalo-simon-aguilar/"
           >
             LINKEDIN
-          </button>
+          </a>
         </div>
       </div>
     );
