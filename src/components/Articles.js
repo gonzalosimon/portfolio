@@ -91,7 +91,7 @@ class Articles extends Component {
             <div className="element-animation left">
               {/* All this articles belong to the estribor side */}
               <p className="articles-intro">
-                You can check
+                You can check{" "}
                 <a
                   className="link-reference"
                   href="https://gonzalosimon.hashnode.dev/"

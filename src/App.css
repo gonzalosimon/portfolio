@@ -1,8 +1,7 @@
 /* Import AOS */
 
 @import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 /* Global Styles */
 
 .body {
@@ -273,11 +272,7 @@ ul {
 .article-default,
 .article-last {
   width: 100%;
-  background-color: rgb(255, 249, 225);
-
-  box-sizing: border-box;
-  border: 1px solid #e6e6e6;
-  box-shadow: 0px 0px 20px rgba(217, 217, 217, 0.2);
+  background-color: rgb(250, 250, 230);
 }
 
 .article-default {
