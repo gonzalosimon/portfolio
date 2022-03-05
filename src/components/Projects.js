@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "../App.css";
+import "./../App.css";
 import "../Responsive.css";
 import "../Hamburgers.css";
-import Project from "./Project.js";
+import Project from "./Schemas/Project.js";
 
 class Projects extends Component {
   state = {
@@ -97,6 +97,24 @@ class Projects extends Component {
             </a>.
           </p>
           <div className="projects">
+          <Project
+              link="https://socialgallery.netlify.app/"
+              aos="fade-up"
+              class="project-default"
+              name="Galeria is my first social media application"
+              title="Social Media w/MERN Stack"
+              tools="JavaScript"
+              index="12"
+            />{" "}
+              <Project
+              link="https://github.com/gb-simon/galleryapp/"
+              aos="fade-up"
+              class="project-default"
+              name="Gallery App Unsplash API"
+              title="Gallery App Unsplash API w/React [Infinite Scroll]"
+              tools="JavaScript"
+              index="11"
+            />
             <Project
               link="https://github.com/gb-simon/footballgame/"
               aos="fade-up"
