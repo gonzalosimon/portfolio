@@ -1,4 +1,5 @@
 /* Footer */
+
 .footer {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -12,10 +13,16 @@
   width: 100%;
 }
 
+.contact-mail{
+  font-size: 17px;
+  text-align: center;
+  margin-top: 50px;
+  color:#000000;
+}
+
 /* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
   .footer {
-
     margin-bottom: 10%;
   }
 }

@@ -38,13 +38,13 @@ ul {
 }
 
 .header .navigation div a {
-  color: #bbbbbb;
+  color: rgb(70, 70, 70);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .header .navigation div a:hover {
-  color: black !important;
+  color: rgb(152, 152, 152) !important;
 }
 
 .header .navigation .active {
