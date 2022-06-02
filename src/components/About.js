@@ -12,7 +12,7 @@ class About extends Component {
 
         <section className="about">
           <img
-            src="https://scontent.fcor2-2.fna.fbcdn.net/v/t39.30808-6/278960062_2309644315843169_7691798677641452255_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hA1nVdDPnTsAX96aX9f&_nc_ht=scontent.fcor2-2.fna&oh=00_AT-xyoMId41bgr216LTDODkgsmMUdEmpo_1HykDdc_Bjvg&oe=62946ED5"
+            src="https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/278960062_2309644315843169_7691798677641452255_n.jpg?stp=dst-jpg_p240x240&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=vF8dW1TuNiYAX9Fy3R4&_nc_ht=scontent-lax3-2.xx&oh=00_AT9CjZVHH3Mrwy_TMnF-stvdfsmFrEXz9z47xRFXKmJJtA&oe=629CB457"
             alt="Profile"
             className="element-animation about-image"
           />
