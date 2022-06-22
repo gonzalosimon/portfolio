@@ -12,7 +12,7 @@ class About extends Component {
 
         <section className="about">
           <img
-            src="https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/278960062_2309644315843169_7691798677641452255_n.jpg?stp=dst-jpg_p240x240&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=vF8dW1TuNiYAX9Fy3R4&_nc_ht=scontent-lax3-2.xx&oh=00_AT9CjZVHH3Mrwy_TMnF-stvdfsmFrEXz9z47xRFXKmJJtA&oe=629CB457"
+            src="https://instagram.fcor2-1.fna.fbcdn.net/v/t51.2885-15/278490720_356401979791195_9064762662401112983_n.webp?stp=dst-jpg_e35&_nc_ht=instagram.fcor2-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=zUNHkyA0MvYAX-jIfQt&edm=ANmP7GQBAAAA&ccb=7-5&ig_cache_key=MjgxNzg5NTQxODg1Nzc5MTY0OA%3D%3D.2-ccb7-5&oh=00_AT-rKEk_q1ETUx33o-IG2R4EMUa3BLwAGekvP_R-HK1DNg&oe=62B5F406&_nc_sid=276363"
             alt="Profile"
             className="element-animation about-image"
           />
@@ -38,7 +38,7 @@ class About extends Component {
           </a>
           <a
             className="about-cv"
-            href="https://drive.google.com/file/d/1DBpqnbHZK-HjAgGd1FMBxmpGmpUQZCD1/view?usp=sharing"
+            href="https://drive.google.com/file/d/1gy2Uu64BJIahQTQp3VDGvELw9ZeeX-Oe/view?usp=sharing"
           >
             MY CV
           </a>
