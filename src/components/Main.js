@@ -10,21 +10,16 @@ class Main extends Component {
     return (
       <div className="body">
         <Header />
-        <div className="container">
-          <div className="element-animation">
-            <div className="description">
-              <img
-                src="https://avatars.githubusercontent.com/u/53063584?v=4"
-                alt="Profile"
-                className="profile"
-              />
-              <h2>Gonzalo Simon</h2>
-              <p> Full Stack Developer</p>
-              <div className="desc">
-                <p>Córdoba, Argentina</p>
-              </div>
-            </div>
-          </div>
+        <div className="container element-animation description">
+          <img
+            src="https://avatars.githubusercontent.com/u/53063584?v=4"
+            alt="Profile"
+            className="profile"
+          />
+          <h2>Gonzalo Simon</h2>
+          <p> Full Stack Developer</p>
+          <p className="desc">Córdoba, Argentina</p>
+          <p className="contact-mail">aguilargzb@gmail.com</p>
         </div>
       </div>
     );

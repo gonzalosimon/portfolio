@@ -19,7 +19,6 @@ class Footer extends Component {
     return (
       <div className="footer">
         <div className="footer-statement">My Networks </div>
-
         <div className="social-links">
           <div className="social">
             <a
@@ -49,7 +48,7 @@ class Footer extends Component {
           </div>
           <div className="social">
             <a
-              href="mailto:aguilarsimon01@gmail.com"
+              href="mailto:aguilargzb@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -65,9 +64,6 @@ class Footer extends Component {
               <img className="blog" src={this.state.blog} alt="Blog Logo" />
             </a>
           </div>
-        </div>
-        <div className="contact-mail">
-          <p className="contact-mail">e-mail: aguilarsimon01@gmail.com</p>
         </div>
       </div>
     );
