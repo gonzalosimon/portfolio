@@ -3,10 +3,10 @@ import { BrowserRouter, Route } from "react-router-dom";
 import "./App.css";
 import "./Responsive.css";
 import Main from "./components/Main.js";
-import Projects from "./components/Projects.js";
 import About from "./components/About.js";
 import Articles from "./components/Articles.js";
 import Footer from "./components/Footer.js";
+import Header from "./components/Header.js";
 import AOS from "aos";
 
 class App extends Component {
@@ -24,10 +24,10 @@ class App extends Component {
 
     return (
       <BrowserRouter>
+        <Header />
         <Route exact path="/" component={Main} />
         <Route path="/about" component={About} />
         <Route path="/articles" component={Articles} />
-        <Route path="/projects" component={Projects} />
         <Footer />
       </BrowserRouter>
     );

@@ -1,0 +1,65 @@
+/* Project List */
+
+.projects-intro {
+    font-weight: 400;
+    font-family: system-ui;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+}
+
+.highlight_1 {
+    background-color: darkgreen
+}
+
+.highlight_2 {
+    background-color: darkblue
+}
+
+.projects {
+    padding-top: 30px;
+    width: 100%;
+    font-family: Raleway, sans-serif;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/* Individual Project */
+
+.project {
+    background-color: rgb(55, 82, 93);
+    border: 3px solid rgb(37, 57, 64);
+    cursor: pointer;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px, rgba(0, 0, 0, 0.1) 0px 3px 6px;
+}
+
+.project a {
+    text-decoration: none;
+    color: black;
+}
+
+.project a:visited {
+    color: black;
+}
+
+.project-default {
+    width: 100%;
+    margin-bottom: 52px;
+}
+
+.project-title {
+    font-size: 18px;
+    line-height: 28px;
+    transition: color 0.4s;
+}
+
+.project-tools {
+    font-size: 18px;
+    line-height: 28px;
+    transition: color 0.4s;
+}

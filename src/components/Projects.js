@@ -1,23 +1,22 @@
 import React, { Component } from "react";
 import "./../App.css";
 import "../Responsive.css";
-import "../Hamburgers.css";
+import "../styles/projects.css"
 import Project from "./Schemas/Project.js";
-import Header from "./Header";
 
 class Projects extends Component {
   render() {
     return (
       <div className="body">
-        <Header />
         <section>
-          <p className="projects-intro">
-            I've been coding for a few years, I have more than 50 projects that
-            you can check on my{" "}
-            <a className="link-reference" href="https://github.com/gb-simon">
-              GitHub account
-            </a>
-            .
+          <a className="link-reference" href="https://github.com/gb-simon">
+            Linkedin
+          </a>
+          <a className="link-reference" href="https://github.com/gb-simon">
+            GitHub
+          </a>
+            <p className="projects-intro">
+              I've been coding for a few years now, worked for single clients and companies, having side projects, studying, training, and still sleeping
           </p>
           <div className="projects">
             <Project
@@ -28,7 +27,7 @@ class Projects extends Component {
               title="Social Media w/MERN Stack"
               tools="JavaScript"
               index="12"
-            />{" "}
+            />
             <Project
               link="https://github.com/gb-simon/galleryapp/"
               aos="fade-up"

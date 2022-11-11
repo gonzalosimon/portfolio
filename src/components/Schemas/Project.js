@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../App.css";
+import "../../styles/projects.css"
 import "../../Responsive.css";
 
 class Project extends Component {

@@ -6,19 +6,20 @@
   font-size: 18px;
   font-weight: lighter !important;
   line-height: 30px;
+  color: whitesmoke;
   text-align: justify;
-  font-family: sans-serif;
+  font-family: system-ui, Ubuntu, sans-serif;
 }
 
 .about-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 25px;
 }
 
 .about-content a:link,
 .about-content a:visited {
   text-decoration: none;
-  color: #02cf5d;
+  color: green;
 }
 
 .about-content a:hover {
@@ -41,11 +42,11 @@
   align-items: center;
   width: 210px;
   height: 38px;
-  color: #02cf5d;
+  color: green;
   font-size: 13px;
   letter-spacing: 2px;
-  background-color: white;
-  border: 2px solid #02cf5d;
+  background-color: transparent;
+  border: 2px solid darkgreen;
   cursor: pointer;
   border-radius: 38px;
   transition: all 0.4s;
@@ -54,8 +55,7 @@
 
 .about-links a:hover {
   color: white;
-  background-color: #02cf5d;
-  border: 2px solid #02cf5d;
+  border: 2px solid green;
 }
 
 .about-cv {
