@@ -2,24 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "../styles/header.css"
+import { Grid } from '@mui/material';
 
 const Header = () => {
     return (
-        <section className="header">
-            <div className="navigation">
-                <div className="home">
-                    <Link to="/">
-                        Home
-                    </Link>
-                </div>
-                <div className="articles">
-                    <Link to="/articles">Articles</Link>
-                </div>
-                <div className="about">
-                    <Link to="/about">About</Link>
-                </div>
-            </div>
-        </section>
+        <Grid container direction={{ xs: "column", sm: "row" }} justifyContent="center" className="header navigation">
+            <Link to="/">Home</Link>
+            <Link to="/articles">Articles</Link>
+            <Link to="/about">About</Link>
+        </Grid>
     );
 }
 

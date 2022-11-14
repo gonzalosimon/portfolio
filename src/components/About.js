@@ -2,14 +2,15 @@ import React from "react";
 import "../App.css";
 import "../styles/about.css";
 import "../Responsive.css";
+import { Grid } from '@mui/material';
 
 const About = () => {
   return (
-    <div className="body">
-      <section className="element-animation about">
+    <Grid container className="about-container" justifyContent="center" xs={4} md={8}>
+      <Grid item className="element-animation about">
         <div className="about-content">
           <div>
-            <span className="about-title">About me</span>
+            <h2 className="about-title">About me</h2>
             <p>
               I'm a Full-Stack developer based in Cordoba, Argentina.
               I keep studying computer science at Universidad Nacional
@@ -18,8 +19,8 @@ const About = () => {
             </p>
           </div>
         </div>
-      </section>
-      <div className="about-links">
+      </Grid>
+      <Grid item className="about-links">
         <a
           className="about-certification"
           href="https://www.freecodecamp.org/certification/gonzalosimon/full-stack"
@@ -38,8 +39,8 @@ const About = () => {
         >
           LINKEDIN
         </a>
-      </div>
-    </div>
+      </Grid>
+    </Grid>
   );
 }
 

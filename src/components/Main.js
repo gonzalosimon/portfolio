@@ -1,13 +1,13 @@
 import React from "react";
 import Projects from "./Projects.js";
-import { Box, Grid, Paper, Divider } from '@mui/material';
+import { Grid, Divider } from '@mui/material';
 import "../App.css";
 import "../styles/main.css";
 import "../Responsive.css";
 
 const Main = () => {
   return (
-    <Grid container>
+    <Grid container justifyContent="center" alignItems="center">
       <Grid item className="element-animation description">
         <img
           src="https://avatars.githubusercontent.com/u/53063584?v=4"
@@ -15,10 +15,11 @@ const Main = () => {
           className="profile"
         />
         <h1>Gonzalo Simon</h1>
-        <p> Hello! This is my personal page, I'm currently based in Córdoba, Argentina </p>
-        <p> I'm a Full-Stack developer, dedicated to React.js & Node.js.</p>
+        <p>Hello! This is my personal page</p>
+        <p>I'm a software developer based in Córdoba, Argentina</p>
       </Grid>
       <Grid item className="second-container">
+        <h4 className="tech">My tech stack is Typescript, Reactjs & Nodejs</h4>
         <h3 className="companies">Companies I worked for</h3>
         <Grid
           container item
@@ -32,7 +33,8 @@ const Main = () => {
           <p>ArkusNexus</p>
           <p>Figo</p>
         </Grid>
-        <Divider />
+        <hr>
+        </hr>
         <Projects />
       </Grid>
     </Grid>

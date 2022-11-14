@@ -2,13 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .about-content {
-  margin-top: 50px;
   font-size: 18px;
-  font-weight: lighter !important;
-  line-height: 30px;
-  color: whitesmoke;
+  line-height: 35px;
+  font-family: Raleway system-ui, Ubuntu, sans-serif;
   text-align: justify;
-  font-family: system-ui, Ubuntu, sans-serif;
 }
 
 .about-title {

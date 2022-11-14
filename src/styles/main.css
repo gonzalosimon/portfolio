@@ -18,6 +18,11 @@ h1 {
   font-weight: 400;
 }
 
+.tech{
+  line-height: 30px;
+  font-weight: lighter;
+}
+
 .description {
   font-family: system-ui;
   font-size: 18px;

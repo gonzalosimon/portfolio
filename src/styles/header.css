@@ -2,27 +2,19 @@
 
 .header {
   font-family: "Raleway", sans-serif;
-  width: 100%;
   margin-top: 40px;
   margin-bottom: 26px;
 }
 
-.navigation {
-  display: flex;
-  color: black;
-}
-
-.navigation div a {
-  color: rgb(184, 184, 184);
+.navigation a {
+  color: rgb(150, 150, 150);
   text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
   transition: color 0.2s;
 }
 
-.navigation div a:hover {
-  background-color: rgb(87, 87, 87) !important;
-}
-
-.home, .articles, .about{
-  padding: 10px;
-  font-size: 24px;
+.navigation a:hover  {
+  color: white;
 }
