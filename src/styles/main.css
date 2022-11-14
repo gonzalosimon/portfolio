@@ -30,3 +30,10 @@
   width: 113px;
   height: 114px;
 }
+
+.contact-mail{
+  font-size: 17px;
+  text-align: center;
+  color: green;
+  padding:25px;
+}

@@ -1,24 +1,18 @@
 /* Footer */
 
 .footer {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 30px;
   text-align: center;
   flex-wrap: wrap;
   align-items: center;
-  font-family: circular-std-book, Arial, sans-serif;
+  font-family: system-ui;
   font-size: 14px;
   color: #b1b1b1;
-  line-height: 36px;
+  line-height: 35px;
   width: 100%;
 }
 
-.contact-mail{
-  font-size: 17px;
-  text-align: center;
-  margin-top: 50px;
-  color:#000000;
-}
 
 /* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
