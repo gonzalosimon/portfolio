@@ -6,7 +6,7 @@
 
 .body {
   width: 784px;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
@@ -14,9 +14,11 @@
 .special-li {
   float: right;
 }
+
 ul {
   list-style-type: none !important;
 }
+
 .link-reference {
   text-decoration: none;
   color: black;
@@ -26,7 +28,7 @@ ul {
 /* Header Styles */
 
 .header {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   width: 100%;
   margin-top: 40px;
   margin-bottom: 26px;
@@ -230,7 +232,7 @@ ul {
 
 .articles {
   width: 100%;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   justify-content: space-between;
 }
 
@@ -239,7 +241,7 @@ ul {
 }
 
 .articles .left .articles-intro {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 78px;
@@ -248,7 +250,7 @@ ul {
 }
 
 .articles .left .articles-intro .bold {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 .articles .right {
@@ -285,21 +287,21 @@ ul {
 }
 
 .article-title {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 6px;
 }
 
 .article-subtitle {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 16px;
   line-height: 22px;
 }
 
 .article-date {
   color: #a0a0a0;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 12px;
   line-height: 28px;
 }
@@ -330,7 +332,7 @@ ul {
 .projects {
   padding-top: 20px;
   width: 100%;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   justify-content: space-between;
   display: grid;
   grid-template-columns: auto auto auto;
