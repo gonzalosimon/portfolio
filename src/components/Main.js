@@ -12,7 +12,7 @@ const Main = () => {
       <div className="container element-animation description">
         <img
           src="https://avatars.githubusercontent.com/u/53063584?v=4"
-          alt="gonzalo simon image"
+          alt="gonzalo simon"
           className="profile"
         />
         <h1>Gonzalo Simon</h1>

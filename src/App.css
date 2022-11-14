@@ -46,11 +46,11 @@ ul {
 }
 
 .header .navigation div a:hover {
-  color: rgb(152, 152, 152) !important;
+  color: rgb(152, 152, 152);
 }
 
 .header .navigation .active {
-  color: black !important;
+  color: black;
 }
 
 .header .overlay {
@@ -239,10 +239,13 @@ ul {
 .articles .left {
   width: 369px;
 }
-
+.articles-intro{
+  font-weight: 500;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+}
 .articles .left .articles-intro {
   font-family: Raleway, sans-serif;
-  font-weight: bold;
   margin-top: 0px;
   margin-bottom: 78px;
   font-size: 18px;
@@ -319,6 +322,7 @@ ul {
 .projects-intro {
   font-weight: 600;
   font-size: 18px;
+  font-weight: 500;
 }
 
 .highlight_1 {

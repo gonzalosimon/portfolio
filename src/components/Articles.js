@@ -10,17 +10,18 @@ class Articles extends Component {
       <div className="body">
         <Header />
         <section className=" element-animation left">
+          <h1>Articles</h1>
           <div className="">
             {/* All this articles belong to the estribor side */}
             <p className="articles-intro">
-              You can check
+              You can check{" "}
               <a
                 className="link-reference"
                 href="https://gonzalosimon.hashnode.dev/"
               >
                 my blog
               </a>
-              where I write about my projects. I explain the way I code and how
+              {" "}where I write about my projects. I explain the way I code and how
               I think my challenges and ideas.
             </p>
             <Article

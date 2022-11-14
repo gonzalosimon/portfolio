@@ -12,9 +12,9 @@ const About = () => {
       <section className="element-animation about">
         <div className="about-content">
           <div>
-            <span className="about-title">About me</span>
+            <h1 className="about-title">About me</h1>
             <p>
-              I've been working as a software developer for three years now, I'm studying computer science at Universidad Nacional de Cordoba. I like to work using agile practices, focusing on delivering value to customers. When I'm not coding, I love working out and reading. I play the guitar when I want get far from the twisted reach of rainy days.
+              I've been working as a software developer for three years now, I'm studying computer science at Universidad Nacional de Cordoba. I like to work using agile practices, focusing on delivering value to customers. When I'm not coding, I love working out and reading. I play the guitar when I want get far from the twisted reach of the rainy days.
             </p>
           </div>
         </div>

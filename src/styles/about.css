@@ -4,15 +4,14 @@
 .about-content {
   margin-top: 50px;
   font-size: 18px;
-  font-weight: lighter !important;
   line-height: 30px;
   text-align: justify;
-  font-family: sans-serif;
+  font-family: Raleway;
 }
 
-.about-title {
-  font-family: Montserrat, sans-serif;
-  font-size: 25px;
+.about-content p{
+  font-weight: 500;
+  font-family: Raleway;
 }
 
 .about-content a:link,

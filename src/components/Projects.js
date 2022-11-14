@@ -10,9 +10,10 @@ const Projects = () => {
     <div className="body">
       <Header />
       <section>
+        <h1>Projects</h1>
         <p className="projects-intro">
           I've been coding for a few years, I have more than 50 projects that
-          you can check on my
+          you can check on my{" "}
           <a className="link-reference" href="https://github.com/gb-simon">
             GitHub account
           </a>
