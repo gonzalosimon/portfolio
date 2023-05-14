@@ -1,0 +1,75 @@
+/* Project List */
+
+.projects-intro {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.link-reference {
+  text-decoration: none;
+}
+
+.link-reference:hover {
+  text-decoration: underline;
+}
+
+.highlight_1 {
+  background-color: rgb(255, 250, 180);
+}
+
+.highlight_2 {
+  background-color: rgb(219, 255, 166);
+}
+
+.projects {
+  padding-top: 20px;
+  width: 100%;
+  font-family: Raleway, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+}
+
+.project {
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.1s cubic-bezier(0.25, 1, 0.25, 1);
+}
+
+.project:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.project-title,
+.project-name,
+.project-tools {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0.2em;
+  font-weight: bold;
+}
+
+.project-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.project-name,
+.project-tools {
+  color: #666;
+}
+
+.highlight_1,
+.highlight_2 {
+  display: inline-block;
+  margin: 0.5em 0;
+}
+
+
+
+.element-animation {
+  animation: animationFrames ease 1s;
+  animation-iteration-count: 1;
+  transform-origin: 25% 25%;
+  animation-fill-mode: forwards; /*when the spec is finished*/
+}

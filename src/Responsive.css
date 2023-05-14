@@ -1,5 +1,5 @@
 @media screen and (max-width: 1009px) {
-  .body {
+  .body, .navigation {
     width: calc(100% - 80px);
     margin-left: auto;
     margin-right: auto;

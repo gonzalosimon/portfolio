@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
-import "../styles/footer.css";
+import "./Styles/Footer.css";
 import "../Responsive.css";
 import linkedin from "../assets/linkedin-logo.png";
 import email from "../assets/email-logo.png";

@@ -1,18 +1,17 @@
 import React from "react";
-import Header from "./Header.js";
 import "../App.css";
-import "../styles/main.css";
+import "./Styles/Main.css";
 import "../Responsive.css";
 import "../Hamburgers.css";
+import profile from "./Assets/Gonzalo.jpeg"
 
 const Main = () => {
   return (
     <div className="body">
-      <Header />
       <div className="container element-animation description">
         <img
-          src="https://avatars.githubusercontent.com/u/53063584?v=4"
-          alt="gonzalo simon"
+          src={profile}
+          alt="This is Gonzalo Simon"
           className="profile"
         />
         <h1>Gonzalo Simon</h1>

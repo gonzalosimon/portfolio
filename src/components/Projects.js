@@ -1,137 +1,38 @@
 import React from "react";
-import "./../App.css";
-import "../Responsive.css";
-import "../Hamburgers.css";
 import Project from "./Schemas/Project.js";
-import Header from "./Header";
+import { projectsList } from "./Lists";
+import "./../App.css";
+import './Styles/Projects.css'
 
 const Projects = () => {
   return (
     <div className="body">
-      <Header />
       <section>
         <h1>Projects</h1>
         <p className="projects-intro">
           I've been coding for a few years, I have more than 50 projects that
           you can check on my{" "}
-          <a className="link-reference" href="https://github.com/gb-simon">
+          <a className="link-reference" href="https://github.com/gonzalosimon">
             GitHub account
           </a>
           .
         </p>
         <div className="projects">
-          <Project
-            link="https://socialgallery.netlify.app/"
-            aos="fade-up"
-            class="project-default"
-            name="Galeria is my first social media application"
-            title="Social Media w/MERN Stack"
-            tools="JavaScript"
-            index="12"
-          />{" "}
-          <Project
-            link="https://github.com/gb-simon/galleryapp/"
-            aos="fade-up"
-            class="project-default"
-            name="Gallery App Unsplash API"
-            title="Gallery App Unsplash API w/React [Infinite Scroll]"
-            tools="JavaScript"
-            index="11"
-          />
-          <Project
-            link="https://github.com/gb-simon/footballgame/"
-            aos="fade-up"
-            class="project-default"
-            name="Football Game with JavaScript"
-            title="Browser video-game"
-            tools="JavaScript"
-            index="0"
-          />{" "}
-          <Project
-            aos="fade-up"
-            link="https://github.com/Marcos-111/crazyPasswords"
-            class="project-default"
-            name="La Boutique de Marcos"
-            title="E-Commerce"
-            tools="Angular & TailwindCSS"
-            index="1"
-          />
-          <Project
-            aos="fade-up"
-            link="https://github.com/gb-simon/url-shortener-microservice"
-            class="project-default"
-            name="URL Shortener"
-            title="URL Shortener Microservice"
-            tools="Node & MongoDB"
-            index="2"
-          />
-          <Project
-            aos="fade-up"
-            link="https://github.com/gb-simon/socialMedia"
-            title="Social Media"
-            class="project-last"
-            name="Twitter Clone"
-            tools="MERN Stack"
-            index="3"
-          />
-          <Project
-            aos="fade-up"
-            link="https://github.com/gb-simon/todoList-using-api-"
-            class="project-default"
-            title="Tasks App"
-            name="To-do App"
-            tools="MERN Stack - API"
-            index="4"
-          />
-          <Project
-            aos="fade-up"
-            link="https://github.com/gb-simon/algorithms-solutions"
-            class="project-default"
-            title="Algorithms Repository"
-            name="+100 Algorithms"
-            tools="Mostly JS & Python"
-            index="5"
-          />
-          <Project
-            aos="fade-up"
-            link="https://github.com/gb-simon/wikipedia-viewer"
-            class="project-default"
-            title="Wikipedia Viewer"
-            name="Wikipedia Finder"
-            tools="React & Redux"
-            index="6"
-          />
-          <Project
-            aos="fade-up"
-            link="https://github.com/gb-simon/cities-slider"
-            title="Cities Slider"
-            class="project-last"
-            name="Argentine Cities Slider"
-            tools="React"
-            index="8"
-          />
-          <Project
-            aos="fade-up"
-            link="https://github.com/gb-simon/jsc-graphic "
-            title="Social Media"
-            class="project-last"
-            name="Average Life Expectancy"
-            tools="JS Charting"
-            index="9"
-          />
-          <Project
-            aos="fade-up"
-            link="https://github.com/gb-simon/treemap-diagram"
-            title="Movies Treemap Diagram"
-            class="project-last"
-            name=" Treemap-diagram"
-            tools="D3"
-            index="10"
-          />
+          {projectsList.map((project) => (
+            <Project
+              link={project.link}
+              aos={project.aos}
+              class={project.class}
+              name={project.name}
+              title={project.title}
+              tools={project.tools}
+              index={project.index}
+            />
+          ))}
         </div>
       </section>
     </div>
   );
-}
+};
 
 export default Projects;

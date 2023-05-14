@@ -1,0 +1,93 @@
+/* ARTICLES PAGE */
+
+/* Articles List */
+
+.articles {
+    width: 100%;
+    font-family: Raleway, sans-serif;
+    justify-content: space-between;
+  }
+  
+  .articles .left {
+    width: 369px;
+  }
+  
+  .articles-intro{
+    font-weight: 500;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+  }
+  
+  .articles .left .articles-intro {
+    font-family: Raleway, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 78px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .articles .left .articles-intro .bold {
+    font-family: Raleway, sans-serif;
+  }
+  
+  .articles .right {
+    width: 369px;
+  }
+  
+  /* Individual Article */
+  
+  .article a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .article a:visited {
+    color: black;
+  }
+  
+  .article-default,
+  .article-last {
+    width: 100%;
+    background-color: rgb(250, 250, 230);
+  }
+  
+  .article-default {
+    margin-bottom: 52px;
+  }
+  
+  .article-last {
+    margin-bottom: 0px;
+  }
+  
+  .article-contents {
+    padding: 19px 25px 19px 25px;
+  }
+  
+  .article-title {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 6px;
+  }
+  
+  .article-subtitle {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .article-date {
+    color: #a0a0a0;
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+    line-height: 28px;
+  }
+  
+  .one-line {
+    margin-top: 32px;
+  }
+  
+  .two-line {
+    margin-top: 10px;
+  }
+  

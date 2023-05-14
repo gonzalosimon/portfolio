@@ -1,15 +1,13 @@
 import React from "react";
 import "../App.css";
-import "../styles/about.css";
+import "./Styles/About.css";
 import "../Responsive.css";
-import Header from "./Header";
 
 const About = () => {
 
   return (
     <div className="body">
-      <Header />
-      <section className="element-animation about">
+      <section className="element-animation">
         <div className="about-content">
           <div>
             <h1 className="about-title">About me</h1>
@@ -28,7 +26,7 @@ const About = () => {
         </a>
         <a
           className="about-cv"
-          href="https://drive.google.com/file/d/1snjAwe0L93FUN1U828FQUfb2G5Nz9SvX/view?usp=share_link"
+          href="https://drive.google.com/file/d/1rReyzTv2465Dllvu8CX21uu1Mk6DCb1Y/view?usp=share_link"
         >
           MY CV
         </a>
