@@ -8,7 +8,7 @@ import profile from "./Assets/Gonzalo.jpeg"
 const Main = () => {
   return (
     <div className="body">
-      <div className="container element-animation description">
+      <div className="container description">
         <img
           src={profile}
           alt="This is Gonzalo Simon"

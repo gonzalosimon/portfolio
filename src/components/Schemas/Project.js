@@ -1,25 +1,19 @@
 import React from "react";
-import './../Styles/Projects.css'
+import "./../Styles/Projects.css";
 import "../../App.css";
 
-const Project = ({ aos, link, className, title, name, tools }) => {
+const Project = ({ link, title, name, tools }) => {
   return (
-    <div data-aos={aos} className="project">
+    <div data-aos={"fade-right"} className="project">
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <div className={className}>
-          <div className="project-title">
-            <a href={link} className="highlight_1">
-              {title}
-            </a>
-          </div>
-          <div className="project-name">
-            <a href={link}>{name}</a>
-          </div>
-          <div className="project-tools">
-            <a href={link} className="highlight_2">
-             Tech: {tools}
-            </a>
-          </div>
+        <div className="project-title">
+          <p className="highlight_1">{title}</p>
+        </div>
+        <div className="project-name">
+          <p>{name}</p>
+        </div>
+        <div className="project-tools">
+          <p className="highlight_2">Tech: {tools}</p>
         </div>
       </a>
     </div>

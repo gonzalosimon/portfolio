@@ -56,29 +56,21 @@
     display: block;
   }
 
-  .projects .left .projects-intro {
+  .projects .projects-intro {
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 20px;
   }
 
-  .projects .left,
+  .projects,
   .projects .right {
     width: 100%;
   }
 
-  .projects .left {
+  .projects {
     margin-bottom: 30px;
   }
-
-  .projects .right {
-    margin-bottom: 0px;
-  }
-
-  .project {
-    width: 100%;
-  }
-
+  
   .hmw {
     width: calc(100% - 80px);
     height: calc(100vw - 95px);
@@ -93,20 +85,6 @@
     height: 100%;
     font-size: 14px;
     line-height: 20px;
-  }
-
-  .project-image {
-    width: 100%;
-    height: calc(100vw - 95px);
-    overflow: hidden;
-    margin-bottom: 19px;
-    box-shadow: 0px 0px 20px #e8e8e8;
-  }
-
-  .project-image-size {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.4s;
   }
 
   .project-title {
@@ -133,19 +111,10 @@
     font-weight: 600;
   }
 
-  .articles .left .articles-intro {
+  .articles .articles-intro {
     margin-bottom: 30px;
     font-size: 18px;
     line-height: 20px;
-  }
-
-  .articles .left,
-  .articles .right {
-    width: 100%;
-  }
-
-  .articles .left {
-    margin-bottom: 30px;
   }
 
   .articles .right {

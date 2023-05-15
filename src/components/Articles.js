@@ -13,7 +13,7 @@ const Articles = () => (
         <p className="articles-intro">
           You can check{" "}
           <a
-            className="link-reference"
+            className="blog-reference"
             href="https://gonzalosimon.hashnode.dev/"
           >
             my blog
@@ -24,13 +24,10 @@ const Articles = () => (
         {articlesList.map((article) => (
           <Article
             key={article.index}
-            aos={article.aos}
             link={article.link}
-            class={article.class}
             title={article.title}
             subtitle={article.subtitle}
             date={article.date}
-            dateClass={article.dateClass}
             index={article.index}
           />
         ))}

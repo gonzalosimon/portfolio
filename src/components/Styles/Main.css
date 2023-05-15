@@ -16,11 +16,6 @@
   box-shadow: 0 8px 16px 0 rgb(140, 185, 120);
 }
 
-h1,
-p {
-  font-weight: 600;
-}
-
 .container:after,
 .container:before {
   content: " ";

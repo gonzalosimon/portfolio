@@ -17,18 +17,11 @@ html {
   margin-right: auto;
 }
 
-.special-li {
-  float: right;
-}
-
-ul {
-  list-style-type: none !important;
-}
-
-.link-reference {
-  text-decoration: none;
-  color: black;
-  background: rgb(168, 255, 168);
+.element-animation {
+  animation: animationFrames ease 0.5s;
+  animation-iteration-count: 1;
+  transform-origin: 5% 5%;
+  animation-fill-mode: forwards; /*when the spec is finished*/
 }
 
 @keyframes animationFrames {

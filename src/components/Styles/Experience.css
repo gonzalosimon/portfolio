@@ -1,51 +1,56 @@
-/* Articles List */
+/* clients List */
 
-.articles {
+.clients {
   width: 100%;
+  justify-content: space-between;
 }
 
-.articles-intro {
+.clients-intro {
   font-weight: 500;
   font-size: 18px;
-  margin-bottom: 40px;
 }
 
-.blog-reference {
-  background-color: lightgreen;
+.linkedin-reference {
+  background-color: lightblue;
 }
 
-/* Individual Article */
+/* Individual client */
 
-.article a {
+.client a {
   text-decoration: none;
   color: inherit;
 }
 
-.article-default {
+.client a:visited {
+  color: black;
+}
+
+.client-default,
+.client-last {
   width: 100%;
   background-color: rgb(250, 250, 230);
 }
 
-.article-default {
+.client-default {
   margin-bottom: 25px;
 }
 
-.article-contents {
+.client-contents {
   padding: 19px 25px 19px 25px;
 }
 
-.article-title {
+.client-title {
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 6px;
 }
 
-.article-subtitle {
+.client-subtitle {
   font-size: 16px;
   line-height: 22px;
 }
 
-.article-date {
+.client-date {
   color: #a0a0a0;
   font-size: 12px;
   line-height: 28px;

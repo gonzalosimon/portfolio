@@ -4,7 +4,6 @@ import "./Styles/About.css";
 import "../Responsive.css";
 
 const About = () => {
-
   return (
     <div className="body">
       <section className="element-animation">
@@ -12,7 +11,27 @@ const About = () => {
           <div>
             <h1 className="about-title">About me</h1>
             <p>
-              I've been working as a software developer for three years now, I'm studying computer science at Universidad Nacional de Cordoba. I like to work using agile practices, focusing on delivering value to customers. When I'm not coding, I love working out and reading. I play the guitar when I want get far from the twisted reach of the rainy days.
+              I started programming when I was 16 years old. I did two years of
+              hardware engineering, and at the same time, I worked as a
+              programmer. The topics I enjoyed most were databases and
+              algorithms, both made me realize my love for mathematics, so
+              although I am already working as a software developer, in my free
+              time, I'm still studying. I started Licenciatura en Ciencias de la
+              Computación, which is equivalent to Computer Science at the
+              Universidad Nacional de Córdoba in my city. I have built a strong
+              foundation in coding and software development. I am passionate
+              about agile practices, focusing on delivering value to customers
+              and working effectively in diverse teams. My belief in success
+              extends beyond coding skills and involves empathy, communication,
+              and understanding customer needs. Outside coding, I maintain a
+              balanced lifestyle by working out, reading, and playing the
+              guitar. Fitness keeps me energized while reading broadens my
+              perspective and serves as a source of relaxation. Playing the
+              guitar allows me to tap into my creative side, offering a welcome
+              break from coding. As a software developer at heart, a student in
+              spirit, and an individual cherishing life's experiences, I look
+              forward to embracing every opportunity to learn, grow, and make a
+              positive impact in the world of technology.
             </p>
           </div>
         </div>
@@ -39,6 +58,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
 export default About;

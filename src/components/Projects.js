@@ -7,12 +7,12 @@ import './Styles/Projects.css'
 const Projects = () => {
   return (
     <div className="body">
-      <section>
+      <section className="element-animation"> 
         <h1>Projects</h1>
         <p className="projects-intro">
           I've been coding for a few years, I have more than 50 projects that
           you can check on my{" "}
-          <a className="link-reference" href="https://github.com/gonzalosimon">
+          <a className="github-reference" href="https://github.com/gonzalosimon">
             GitHub account
           </a>
           .
@@ -21,8 +21,6 @@ const Projects = () => {
           {projectsList.map((project) => (
             <Project
               link={project.link}
-              aos={project.aos}
-              class={project.class}
               name={project.name}
               title={project.title}
               tools={project.tools}
