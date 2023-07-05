@@ -13,7 +13,7 @@ const About = () => {
             <img
               src={image}
               className="gonzalo-picture right-side"
-              alt="photo of gonzalo standing in a place"
+              alt="gonzalo standing in a place"
             />
             <div className="left-side">
               <h1 className="about-title">About me</h1>
