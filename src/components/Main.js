@@ -3,7 +3,7 @@ import "../App.css";
 import "./Styles/Main.css";
 import "../Responsive.css";
 import "../Hamburgers.css";
-import profile from "./Assets/Gonzalo.jpeg"
+import profile from "./../assets/pic.jpg"
 
 const Main = () => {
   return (

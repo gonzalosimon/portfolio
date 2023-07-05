@@ -2,11 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .about-content {
-  margin-top: 50px;
   font-size: 18px;
   line-height: 30px;
   text-align: justify;
   font-family: Raleway;
+}
+
+.about-title{
+  justify-content: flex-start;
+  display: flex;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.text-about {
+  margin-top: 0px;
 }
 
 .about-content p {
@@ -27,9 +38,6 @@
 }
 
 .about-links {
-  width: 100%;
-  margin-top: 40px;
-  font-weight: 800;
   display: flex;
   justify-content: center;
 }
@@ -38,7 +46,6 @@
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  width: 210px;
   height: 38px;
   color: #02cf5d;
   font-size: 13px;
@@ -49,6 +56,9 @@
   border-radius: 38px;
   transition: all 0.4s;
   display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px;
 }
 
 .about-links a:hover {
@@ -57,42 +67,60 @@
   border: 2px solid #02cf5d;
 }
 
-.about-cv {
-  margin-left: 10px;
+.container-about {
+  display: flex;
+  flex-direction: row;
 }
-.about-linkedin {
-  margin-left: 10px;
+
+.right-side {
+  margin: 0 10px 0 10px;
+}
+
+.left-side {
+  margin: 0 10px 20px 10px !important;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gonzalo-picture{
+  width: 410px;
+  height: 500px;
+  border-radius: 6%;
 }
 
 /* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
+@media (max-width: 800px) {
+  .about-content{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-about{ 
+    display: block;
+    width: auto;
+  }
+
+  .gonzalo-picture{
+
+  }
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .about-image {
     max-width: 170px;
     margin-right: 40%;
   }
-  .about-title {
-    padding-top: 15%;
-  }
 
-  .about-certifications {
-    margin-right: 0;
-    margin-top: 5%;
-  }
-  .about-cv {
-    margin-left: 0;
-    margin-top: 5%;
-  }
-  .about-linkedin {
-    margin-left: 0;
-    margin-top: 5%;
-  }
-  .about-links {
-    width: 100%;
-    padding: 2%;
-    margin-top: 40px;
-    margin-left: 12%;
+  .about-links, a {
     font-weight: 800;
-    display: block;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 }
