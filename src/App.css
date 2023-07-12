@@ -1,7 +1,7 @@
 /* Import AOS */
 
 @import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 
 /* Global Styles */
 
@@ -22,6 +22,12 @@ html {
   animation-iteration-count: 1;
   transform-origin: 5% 5%;
   animation-fill-mode: forwards; /*when the spec is finished*/
+}
+
+@media (max-width: 800px) {
+  .body {
+    width: calc(80%);
+  }
 }
 
 @keyframes animationFrames {

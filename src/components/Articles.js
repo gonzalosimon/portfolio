@@ -1,6 +1,5 @@
 import React from "react";
 import "./../App.css";
-import "./Styles/Responsive.css";
 import Article from "./Schemas/Article.js";
 import "./Styles/Articles.css";
 import { articlesList } from "./Lists";

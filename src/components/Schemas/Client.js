@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.css";
-import "../Styles/Responsive.css";
 import "../Styles/Clients.css";
 
 const Client = ({ client, skills, position, date }) => {

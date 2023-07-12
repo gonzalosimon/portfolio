@@ -33,12 +33,12 @@ const Main = () => {
             <p className="contact-mail">
               <span aria-label="email" role="img">
                 📧
-              </span>{" "}
+              </span>
               aguilargzb@gmail.com
             </p>
           </div>
         </div>
-        <div>
+        <div className="text-main-section">
           <p>
             I'm a developer with more 3 years of experience in the industry.
           </p>

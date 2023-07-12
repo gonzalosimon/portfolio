@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
 import "./Styles/Footer.css";
-import "./Styles/Responsive.css";
 import linkedin from "../assets/linkedin-logo.png";
 import email from "../assets/email-logo.png";
 import github from "../assets/github-logo.png";

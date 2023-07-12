@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import "./Styles/About.css";
-import "./Styles/Responsive.css";
 
 const About = () => {
   return (

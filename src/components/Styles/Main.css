@@ -34,17 +34,41 @@ body {
 .profile-text p {
   font-size: 16px;
   color: #555;
-  margin-bottom: 5px;
 }
 
 .contact-mail {
   font-size: 16px;
   color: green;
-  margin-top: 10px;
+}
+
+.text-main-section {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.text-main-section p {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .text-main-section {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .text-main-section p {
+    font-size: 14px;
+  }
 }
 
 /* Mobile view */
 @media (max-width: 768px) {
+  .container{
+    width: 100%;
+    padding: 0px;
+  }
+
   .profile-info {
     flex-direction: column;
     display: flex;

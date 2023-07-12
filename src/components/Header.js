@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "./Styles/Header.css";
-import "./Styles/Responsive.css"
 import "./Styles/Hamburgers.css"
 import MenuItem from "./MenuItem";
 import { menuItems } from "./Lists"
