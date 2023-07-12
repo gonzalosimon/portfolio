@@ -2,14 +2,14 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import AOS from 'aos';
 import './App.css';
-import './Responsive.css';
+import './components/Styles/Responsive.css';
 import Main from './components/Main.js';
-import Experience from './components/Experience.js';
 import Projects from './components/Projects.js';
 import About from './components/About.js';
 import Articles from './components/Articles.js';
 import Footer from './components/Footer.js';
-import Header from './components/Header'; // Assuming Header is in this directory
+import Header from './components/Header';
+import JobDescription from './components/JobDescription';
 
 // Here's the new component that includes the Header and a specific Component
 const HeaderWithComponent = ({ component: Component }) => (
@@ -36,7 +36,7 @@ const App = () => {
       <Route path="/projects" component={() => <HeaderWithComponent component={Projects} />} />
       <Route path="/about" component={() => <HeaderWithComponent component={About} />} />
       <Route path="/articles" component={() => <HeaderWithComponent component={Articles} />} />
-      <Route path="/work" component={() => <HeaderWithComponent component={Experience} />} />
+      <Route path="/experience/:job" component={() => <HeaderWithComponent component={JobDescription} />} />
       <Footer />
     </BrowserRouter>
   );

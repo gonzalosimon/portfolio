@@ -42,7 +42,7 @@
 
 .project-title,
 .project-name,
-.project-tools {
+.project-skills {
   font-size: 16px;
   line-height: 28px;
   font-weight: bold;
@@ -54,6 +54,6 @@
 }
 
 .project-name,
-.project-tools {
+.project-skills {
   color: #666;
 }

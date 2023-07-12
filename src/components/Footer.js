@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../App.css";
 import "./Styles/Footer.css";
-import "../Responsive.css";
+import "./Styles/Responsive.css";
 import linkedin from "../assets/linkedin-logo.png";
 import email from "../assets/email-logo.png";
 import github from "../assets/github-logo.png";
@@ -65,6 +65,7 @@ class Footer extends Component {
             </a>
           </div>
         </div>
+        <p>Aguante Belgrano y la Mona Jimenez.</p>
       </div>
     );
   }

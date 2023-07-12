@@ -1,57 +1,66 @@
-/* clients List */
+/* Other styles... */
 
-.clients {
-  width: 100%;
-  justify-content: space-between;
-}
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 
-.clients-intro {
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.linkedin-reference {
-  background-color: lightblue;
-}
-
-/* Individual client */
-
-.client a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.client a:visited {
-  color: black;
-}
-
-.client-default,
-.client-last {
-  width: 100%;
-  background-color: rgb(250, 250, 230);
-}
-
-.client-default {
-  margin-bottom: 25px;
-}
-
-.client-contents {
-  padding: 19px 25px 19px 25px;
-}
-
-.client-title {
-  font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 6px;
-}
-
-.client-subtitle {
-  font-size: 16px;
-  line-height: 22px;
-}
-
-.client-date {
-  color: #a0a0a0;
-  font-size: 12px;
-  line-height: 28px;
-}
+  .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .client {
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .client:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    transform: scale(1.03);
+  }
+  
+  .client-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: green;
+  }
+  
+  .client-subtitle {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .client-date, .client-skills {
+    color: #999;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .client-description {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .experience-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

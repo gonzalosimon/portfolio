@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Articles.css";
 import "../../App.css";
-import "../../Responsive.css";
+import "../Styles/Responsive.css";
 
 const Article = ({
   title,
