@@ -85,8 +85,8 @@ export const projectsList = [
   {
     link: "https://vice-chat.netlify.app/",
     class: "project-default",
-    name: "Galeria is my first social media application",
-    title: "Social Media w/MERN Stack",
+    name: "Vice-Chat is my first social media application",
+    title: "Social Media - FullStack MERN",
     tools: "React, Redux, Node, MongoDB",
     index: "12",
   },
@@ -102,7 +102,7 @@ export const projectsList = [
     link: "https://github.com/Marcos-111/crazyPasswords",
     class: "project-default",
     name: "La Boutique de Marcos",
-    title: "E-Commerce",
+    title: "Client-side E-Commerce",
     tools: "Angular & TailwindCSS",
     index: "1",
   },
@@ -125,7 +125,7 @@ export const projectsList = [
   {
     link: "https://github.com/gonzalosimon/jsc-graphic",
     class: "project-last",
-    title: "Social Media",
+    title: "Charting",
     name: "Average Life Expectancy",
     tools: "JS Charting",
     index: "9",

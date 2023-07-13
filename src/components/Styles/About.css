@@ -5,15 +5,6 @@
   font-size: 18px;
   line-height: 30px;
   text-align:left;
-  font-family: Raleway;
-}
-
-.about-title{
-  justify-content: flex-start;
-  display: flex;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 10px;
 }
 
 .text-about {

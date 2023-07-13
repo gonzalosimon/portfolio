@@ -1,9 +1,5 @@
 /* Articles List */
 
-.articles {
-  width: 100%;
-}
-
 .articles-intro {
   font-weight: 500;
   font-size: 18px;
@@ -11,10 +7,8 @@
 }
 
 .blog-reference {
-  background-color: lightgreen;
+  text-decoration: underline !important;
 }
-
-/* Individual Article */
 
 .article a {
   text-decoration: none;
@@ -24,6 +18,9 @@
 .article-default {
   width: 100%;
   background-color: rgb(250, 250, 230);
+  width: 100%;
+  box-shadow:  0px 0px 16px rgba(0, 0, 0, 0.350);
+  border-radius: 1rem;
 }
 
 .article-default {

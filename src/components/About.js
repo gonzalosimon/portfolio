@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-content">
           <div className="container-about">
             <div className="left-side">
-              <h1 className="about-title">About me</h1>
+              <h1>About me</h1>
               <p className="text-about">
                 I began programming at 16. Studied 2 years of computer
                 engineering and completed two bootcamps. I changed my major to
