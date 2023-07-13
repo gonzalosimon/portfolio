@@ -144,6 +144,24 @@ a,
   display: none !important;
 }
 
+.theme-toggle-button {
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  color: #000;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.theme-toggle-button:hover {
+  background-color: #a5c0a5;
+}
+
 /* Desktop Styles */
 @media (min-width: 1025px) {
   .navigation-sub {

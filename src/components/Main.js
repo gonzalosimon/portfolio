@@ -15,18 +15,14 @@ const Main = () => {
           <div className="profile-text">
             <h1>Gonzalo Simon</h1>
             <p>
-              <span role="img" aria-label="location">
-                <span aria-label="location" role="img">
-                  📍
-                </span>
+              <span aria-label="location" role="img">
+                📍
               </span>
               Córdoba, Argentina
             </p>
             <p>
-              <span role="img" aria-label="tech">
-                <span aria-label="technologies" role="img">
-                  💻
-                </span>
+              <span aria-label="technologies" role="img">
+                💻
               </span>
               TypeScript, Reactjs & Nodejs
             </p>
@@ -74,7 +70,7 @@ const Experience = () => {
       <section className="element-animation">
         <div className="grid-container">
           <div className="profile-column">
-            <Main /> {/* Insert your Main component here */}
+            <Main />
           </div>
           <div className="experience-column">
             <h1>Experiences</h1>
