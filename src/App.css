@@ -10,7 +10,7 @@ html {
   margin-right: 0;
 }
 
-.body {
+body {
   width: calc(80%);
   font-family: Raleway, sans-serif;
   margin-left: auto;
@@ -22,12 +22,6 @@ html {
   animation-iteration-count: 1;
   transform-origin: 5% 5%;
   animation-fill-mode: forwards; /*when the spec is finished*/
-}
-
-@media (max-width: 1000px) {
-  .body {
-    width: calc(95%);
-  }
 }
 
 @keyframes animationFrames {

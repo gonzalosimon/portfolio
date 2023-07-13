@@ -1,13 +1,12 @@
 body {
-  background-color:#fbfbfb;
+  background-color: #fbfbfb;
 }
 
 .container {
   margin: 0 auto;
-  width: 385px;
 }
 
-.profile-column{
+.profile-column {
   margin-right: 25px;
 }
 
@@ -42,7 +41,7 @@ body {
   line-height: 1.5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850) {
   .text-main-section {
     padding: 0.5rem;
   }
@@ -53,8 +52,8 @@ body {
 }
 
 /* Mobile view */
-@media (max-width: 768px) {
-  .container{
+@media (max-width: 850px) {
+  .container {
     width: 100%;
     padding: 0px;
   }

@@ -3,7 +3,7 @@
   font-size: 18px;
 }
 
-.github-reference:hover {
+.github-reference {
   text-decoration: underline !important;
 }
 
@@ -51,4 +51,14 @@
 .project-name,
 .project-skills {
   color: #666;
+}
+
+@media (max-width: 800px) {
+  .projects {
+    display: block;
+  }
+
+  .project{
+    margin-bottom: 25px;
+  }
 }

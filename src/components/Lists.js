@@ -148,7 +148,7 @@ export const clientsList = [
     client: "Norden",
     position: "Full-Stack Developer",
     tools:
-      "React Native · MongoDB · Next.js · React.js · Node.js · PostgreSQL · TypeScript · Python (Programming Language)Skills",
+      "React Native · MongoDB · Next.js · React.js · Node.js · PostgreSQL · TypeScript · Python",
     skills: "TypeScript · Next.js · React.js · Node.js · PostgreSQL",
     date: "July, 2022 - November 2022",
     description:
