@@ -2,19 +2,30 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "./Styles/Header.css";
-import "./Styles/Hamburgers.css"
+import "./Styles/Hamburgers.css";
 import MenuItem from "./MenuItem";
-import { menuItems } from "./Lists"
+import { menuItems } from "./Lists";
 
 const Header = () => {
   const [hamburgerState, setHamburgerState] = useState("off");
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    // At page load:
+    const theme = localStorage.getItem("theme");
+    document.body.setAttribute("data-theme", theme ? theme : "light");
   }, []);
 
   const toggleMenu = () => {
     setHamburgerState(hamburgerState === "off" ? "on" : "off");
+  };
+
+  const toggleTheme = () => {
+    const body = document.body;
+    const newTheme =
+      body.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    body.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
   };
 
   return (
@@ -25,6 +36,10 @@ const Header = () => {
             Gonzalo Simón
           </Link>
           <div className="speciality">Software Developer</div>
+          {/* Added theme toggle button */}
+          <button onClick={toggleTheme} className="theme-toggle-button">
+            Toggle Theme
+          </button>
         </div>
 
         <button

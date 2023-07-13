@@ -41,6 +41,36 @@ body {
   line-height: 1.5;
 }
 
+.about-links {
+  display: flex;
+  justify-content: center;
+}
+
+.about-links a {
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  color: #02cf5d;
+  font-size: 13px;
+  letter-spacing: 2px;
+  background-color: white;
+  border: 2px solid #02cf5d;
+  cursor: pointer;
+  border-radius: 38px;
+  transition: all 0.4s;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px;
+}
+
+.about-links a:hover {
+  color: white;
+  background-color: #02cf5d;
+  border: 2px solid #02cf5d;
+}
+
 @media (max-width: 850) {
   .text-main-section {
     padding: 0.5rem;
