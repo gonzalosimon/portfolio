@@ -1,8 +1,8 @@
 import React from "react";
 import Client from "./Schemas/Client.js";
 import { clientsList } from "./Lists.js";
-import profile from './../assets/pic.jpg';
-import './Styles/Clients.css';
+import profile from "./../assets/pic.jpg";
+import "./Styles/Clients.css";
 
 const Main = () => {
   return (

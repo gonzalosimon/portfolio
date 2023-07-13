@@ -1,6 +1,5 @@
 /* Common Styles */
-.header,
-.header-project {
+.header {
   font-family: Raleway, sans-serif;
   margin: 30px 0;
   display: flex;
@@ -34,7 +33,7 @@
 .navigation-sub div,
 a,
 .navigation .menu-item {
-  text-decoration: none !important;
+  text-decoration: none;
   color: rgb(70, 70, 70);
   text-decoration: none;
   transition: color 0.4s;
@@ -45,26 +44,15 @@ a,
 }
 
 .menu-item {
-  margin-right: 30px !important;
+  margin: 0 25px;
 }
 
 .menu-item a:hover {
-  color: rgb(130, 130, 130) !important;
   transition: 0.4s;
   text-decoration: underline !important;
-  border-radius: 30px;
 }
 
-.active {
-  color: black;
-}
-
-.active:hover {
-  color: gray;
-}
-
-.header .overlay,
-.header-project {
+.header .overlay {
   visibility: hidden;
   position: fixed;
   z-index: 100;
@@ -91,10 +79,6 @@ a,
   font-size: 24px;
 }
 
-.a:hover {
-  color: gray;
-}
-
 .show {
   visibility: visible !important;
   opacity: 1 !important;
@@ -104,14 +88,12 @@ a,
   visibility: hidden !important;
 }
 
-.header .navigation-sub,
-.header-project {
+.header .navigation-sub {
   font-size: 22px;
   display: flex;
 }
 
-.header .navigation .simon,
-.header-project {
+.header .navigation .simon {
   font-size: 26px;
   line-height: 36px;
 }
@@ -125,18 +107,6 @@ a,
   font-size: 20px;
   color: green;
   line-height: 36px;
-}
-
-.header-project {
-  height: 4 0px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 115px;
-  z-index: 10;
-}
-
-.header-project .navigation .simon {
-  color: white;
 }
 
 .hamburger-button,

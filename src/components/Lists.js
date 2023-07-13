@@ -180,7 +180,8 @@ export const clientsList = [
     client: "Retia Soft",
     position: "React Developer",
     skills: "React.js · JavaScript · Angular",
-    tools: "Data Structures · Front-End Development · MongoDB · React.js · JavaScript · Node.js · Angular",
+    tools:
+      "Data Structures · Front-End Development · MongoDB · React.js · JavaScript · Node.js · Angular",
     date: "April 2021 - September 2021",
     description:
       "Contributed to the development of a hospital platform. Designed new forms and performed data manipulation tasks with custom and reusable components. Managed complex state interactions.",

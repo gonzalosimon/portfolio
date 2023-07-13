@@ -2,12 +2,7 @@ import React from "react";
 import "../Styles/Articles.css";
 import "../../App.css";
 
-const Article = ({
-  title,
-  link,
-  subtitle,
-  date,
-}) => {
+const Article = ({ title, link, subtitle, date }) => {
   return (
     <div data-aos={"fade-down"} className="article">
       <a href={link} target="_blank" rel="noopener noreferrer">

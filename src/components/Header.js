@@ -11,7 +11,6 @@ const Header = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    // At page load:
     const theme = localStorage.getItem("theme");
     document.body.setAttribute("data-theme", theme ? theme : "light");
   }, []);
@@ -36,7 +35,6 @@ const Header = () => {
             Gonzalo Simón
           </Link>
           <div className="speciality">Software Developer</div>
-          {/* Added theme toggle button */}
           <button onClick={toggleTheme} className="theme-toggle-button">
             Toggle Theme
           </button>

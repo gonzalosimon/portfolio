@@ -6,7 +6,7 @@ const MenuItem = ({ label, to, toggleMenu, mobile }) => {
   const clickHandler = mobile ? toggleMenu : null;
 
   return (
-    <div className='menu-item'>
+    <div className="menu-item">
       <Link to={to} onClick={clickHandler}>
         {label}
       </Link>

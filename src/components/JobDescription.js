@@ -29,7 +29,9 @@ const JobDescription = () => {
   return (
     <>
       <div className="job-description">
-      <button onClick={handleGoBack} className="button-back">Go Back</button>
+        <button onClick={handleGoBack} className="button-back">
+          Go Back
+        </button>
         <h1 className="job-title">{jobData.client}</h1>
         <div className="job-meta">
           <h2 className="job-position">{jobData.position}</h2>
