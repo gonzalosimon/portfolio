@@ -83,20 +83,12 @@ export const articlesList = [
 
 export const projectsList = [
   {
-    link: "https://socialgallery.netlify.app/",
+    link: "https://vice-chat.netlify.app/",
     class: "project-default",
     name: "Galeria is my first social media application",
     title: "Social Media w/MERN Stack",
     tools: "React, Redux, Node, MongoDB",
     index: "12",
-  },
-  {
-    link: "https://github.com/gonzalosimon/galleryapp/",
-    class: "project-default",
-    name: "Gallery App Unsplash API",
-    title: "Gallery App Unsplash API w/React [Infinite Scroll]",
-    tools: "JavaScript, React",
-    index: "11",
   },
   {
     link: "https://github.com/gonzalosimon/footballgame/",
@@ -123,22 +115,6 @@ export const projectsList = [
     index: "2",
   },
   {
-    link: "https://github.com/gonzalosimon/socialMedia",
-    class: "project-last",
-    name: "Twitter Clone",
-    title: "Social Media",
-    tools: "MERN Stack",
-    index: "3",
-  },
-  {
-    link: "https://github.com/gonzalosimon/todoList-using-api-",
-    class: "project-default",
-    title: "Tasks App",
-    name: "To-do App",
-    tools: "MERN Stack - API",
-    index: "4",
-  },
-  {
     link: "https://github.com/gonzalosimon/algorithms-solutions",
     class: "project-default",
     title: "Algorithms Repository",
@@ -147,36 +123,12 @@ export const projectsList = [
     index: "5",
   },
   {
-    link: "https://github.com/gonzalosimon/wikipedia-viewer",
-    class: "project-default",
-    title: "Wikipedia Viewer",
-    name: "Wikipedia Finder",
-    tools: "React & Redux",
-    index: "6",
-  },
-  {
-    link: "https://github.com/gonzalosimon/cities-slider",
-    class: "project-last",
-    title: "Cities Slider",
-    name: "Argentine Cities Slider",
-    tools: "React",
-    index: "8",
-  },
-  {
     link: "https://github.com/gonzalosimon/jsc-graphic",
     class: "project-last",
     title: "Social Media",
     name: "Average Life Expectancy",
     tools: "JS Charting",
     index: "9",
-  },
-  {
-    link: "https://github.com/gonzalosimon/treemap-diagram",
-    class: "project-last",
-    title: "Movies Treemap Diagram",
-    name: "Treemap-diagram",
-    tools: "D3",
-    index: "10",
   },
 ];
 
@@ -217,8 +169,8 @@ export const clientsList = [
   {
     client: "Martin Marietta",
     position: "Full-Stack Developer",
-    skills: "TypeScript · MongoDB · React.js",
-    tools: "Material-UI · MongoDB · React.js · Node.js · TypeScript · Tailwind CSSSkills",
+    skills: "TypeScript · MongoDB · React.js · Node.js",
+    tools: "Material-UI · MongoDB · React.js · Node.js · TypeScript · Tailwind",
     date: "September 2021 - February 2022",
     description:
       "Developed a Business Intelligence platform using TypeScript-React, REST API connections. Customized the UI with Material and Tailwind. Register/Login structure w/Node.js and MongoDB.",

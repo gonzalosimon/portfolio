@@ -3,26 +3,23 @@ body {
 }
 
 .container {
-  max-width: 900px;
   margin: 0 auto;
-  padding: 40px;
+  width: 385px;
+}
+
+.profile-column{
+  margin-right: 25px;
 }
 
 .profile-info {
   display: flex;
   align-items: center;
-  grid-area: profile;
 }
 
 .profile-img {
   border-radius: 50%;
   width: 150px;
-  height: 150px;
   margin-right: 40px;
-}
-
-.profile-text {
-  flex: 1;
 }
 
 .profile-text h1 {
@@ -42,19 +39,12 @@ body {
 }
 
 .text-main-section {
-  padding: 1rem;
-  margin-bottom: 2rem;
   line-height: 1.5;
-}
-
-.text-main-section p {
-  margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
   .text-main-section {
     padding: 0.5rem;
-    margin-bottom: 1rem;
   }
 
   .text-main-section p {

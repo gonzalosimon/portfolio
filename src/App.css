@@ -24,9 +24,9 @@ html {
   animation-fill-mode: forwards; /*when the spec is finished*/
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .body {
-    width: calc(80%);
+    width: calc(95%);
   }
 }
 

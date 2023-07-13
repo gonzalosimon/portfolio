@@ -28,7 +28,7 @@ const Experience = () => {
       <section className="element-animation">
         <div className="grid-container">
           <div className="profile-column">
-            <Main /> {/* Insert your Main component here */}
+            <Main />
           </div>
           <div className="experience-column">
             <h1>Experiences</h1>
