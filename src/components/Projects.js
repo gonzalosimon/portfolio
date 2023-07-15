@@ -10,13 +10,13 @@ const Projects = () => {
       <section className="element-animation">
         <h1>Projects</h1>
         <p className="projects-intro">
-          I've been coding for a few years, check my project in my
+          I've been coding for a few years, check my project in my{" "}
           <a
             className="github-reference"
             href="https://github.com/gonzalosimon"
           >
-            GitHub account.
-          </a>
+            GitHub account
+          </a>.
         </p>
         <div className="projects">
           {projectsList.map((project) => (

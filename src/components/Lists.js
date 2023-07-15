@@ -14,12 +14,12 @@ export const menuItems = [
     to: "/articles",
     className: "articles",
   },
-  {
-    label: "About",
-    to: "/about",
-    className: "about",
-    lastItem: true,
-  },
+  // {
+  //   label: "About",
+  //   to: "/about",
+  //   className: "about",
+  //   lastItem: true,
+  // },
 ];
 
 export const articlesList = [
@@ -88,23 +88,7 @@ export const projectsList = [
     name: "Vice-Chat is my first social media application",
     title: "Social Media - FullStack MERN",
     tools: "React, Redux, Node, MongoDB",
-    index: "12",
-  },
-  {
-    link: "https://github.com/gonzalosimon/footballgame/",
-    class: "project-default",
-    name: "Football Game with JavaScript",
-    title: "Browser video-game",
-    tools: "JavaScript Vanilla",
     index: "0",
-  },
-  {
-    link: "https://github.com/Marcos-111/crazyPasswords",
-    class: "project-default",
-    name: "La Boutique de Marcos",
-    title: "Client-side E-Commerce",
-    tools: "Angular & TailwindCSS",
-    index: "1",
   },
   {
     link: "https://github.com/gonzalosimon/url-shortener-microservice",
@@ -112,6 +96,14 @@ export const projectsList = [
     name: "URL Shortener",
     title: "URL Shortener Microservice",
     tools: "Node & MongoDB",
+    index: "1",
+  },
+  {
+    link: "https://github.com/gonzalosimon/footballgame/",
+    class: "project-default",
+    name: "Football Game with JavaScript",
+    title: "Browser video-game",
+    tools: "JavaScript Vanilla",
     index: "2",
   },
   {
@@ -120,7 +112,15 @@ export const projectsList = [
     title: "Algorithms Repository",
     name: "+100 Algorithms",
     tools: "Mostly JS & Python",
-    index: "5",
+    index: "3",
+  },
+  {
+    link: "https://github.com/gonzalosimon/finalcountdown",
+    class: "project-default",
+    name: "The Final Countdown",
+    title: "Battle game made with Python",
+    tools: "Python",
+    index: "4",
   },
   {
     link: "https://github.com/gonzalosimon/jsc-graphic",
@@ -128,7 +128,7 @@ export const projectsList = [
     title: "Charting",
     name: "Average Life Expectancy",
     tools: "JS Charting",
-    index: "9",
+    index: "5",
   },
 ];
 
