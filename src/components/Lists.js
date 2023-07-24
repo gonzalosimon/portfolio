@@ -145,7 +145,7 @@ export const clientsList = [
     index: "5",
   },
   {
-    client: "Norden",
+    client: "Nordhen",
     position: "Full-Stack Developer",
     tools:
       "React Native · MongoDB · Next.js · React.js · Node.js · PostgreSQL · TypeScript · Python",
