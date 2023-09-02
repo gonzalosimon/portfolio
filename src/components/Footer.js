@@ -61,7 +61,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p>Aguante Belgrano y la Mona Jimenez.</p>
     </div>
   );
 }

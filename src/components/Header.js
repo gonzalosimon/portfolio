@@ -22,7 +22,7 @@ const Header = () => {
   const toggleTheme = () => {
     const body = document.body;
     const newTheme =
-      body.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      body.getAttribute("data-theme") === "light" ? "dark" : "light";
     body.setAttribute("data-theme", newTheme);
     localStorage.setItem("theme", newTheme);
   };

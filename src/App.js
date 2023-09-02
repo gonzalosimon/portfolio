@@ -4,7 +4,6 @@ import AOS from 'aos';
 import './App.css';
 import Main from './components/Main.js';
 import Projects from './components/Projects.js';
-import About from './components/About.js';
 import Articles from './components/Articles.js';
 import Footer from './components/Footer.js';
 import Header from './components/Header';
@@ -33,7 +32,6 @@ const App = () => {
     <BrowserRouter>
       <Route exact path="/" component={() => <HeaderWithComponent component={Main} />} />
       <Route path="/projects" component={() => <HeaderWithComponent component={Projects} />} />
-      <Route path="/about" component={() => <HeaderWithComponent component={About} />} />
       <Route path="/articles" component={() => <HeaderWithComponent component={Articles} />} />
       <Route path="/experience/:job" component={() => <HeaderWithComponent component={JobDescription} />} />
       <Footer />

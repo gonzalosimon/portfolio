@@ -8,6 +8,7 @@ body {
 
 .profile-column {
   margin-right: 25px;
+  margin-top: 10px;
 }
 
 .profile-info {
@@ -16,8 +17,8 @@ body {
 }
 
 .profile-img {
-  border-radius: 50%;
-  width: 150px;
+  border-radius: 5%;
+  width: 215px;
   margin-right: 40px;
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Client from "./Schemas/Client.js";
 import { clientsList } from "./Lists.js";
-import profile from "./../assets/pic.jpg";
+import profile from "./../assets/picture.jpeg";
 import "./Styles/Main.css";
 import "./Styles/Experience.css";
 import { Link } from "react-router-dom";
@@ -36,18 +36,13 @@ const Main = () => {
         </div>
         <div className="text-main-section">
           <p>
-            I'm a developer with more 3 years of experience in the industry.
+            I'm a Software Engineer with more than three years of experience in the industry.
           </p>
           <p>
-            I began programming at 16. Studied 2 years of computer engineering
-            and completed two bootcamps. I changed my major to study Computer
-            Science at Universidad Nacional de Córdoba, building a solid
-            foundation in software development.
+            I initiated my programming at 16 years old and pursued two years of study in Computer Engineering. In addition, I completed two intensive boot camps. Seeking to solidify my expertise further, I transitioned my academic focus to Computer Science at Universidad Nacional de Córdoba, where I have been cultivating a robust foundation in software development.
           </p>
           <p>
-            I keep balanced with fitness, reading, and guitar playing. As a
-            lifelong learner, I like taking every opportunity to make a positive
-            impact in tech.
+            I am deeply passionate about problem-solving and the implementation of agile methodologies. I value the ability to empathize with customers and understand their needs. Outside my technical pursuits, I maintain a balanced lifestyle through fitness, reading, and guitar playing. Committed to continuous learning, I seize every opportunity to contribute positively to the technology sector.
           </p>
 
           <div className="about-links">
