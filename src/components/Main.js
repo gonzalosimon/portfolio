@@ -13,7 +13,7 @@ const Main = () => {
         <div className="profile-info">
           <img src={profile} alt="Gonzalo Simon" className="profile-img" />
           <div className="profile-text">
-            <h1>Gonzalo Simon</h1>
+            <h1>Gonzalo S. Aguilar</h1>
             <p>
               <span aria-label="location" role="img">
                 📍

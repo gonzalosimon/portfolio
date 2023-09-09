@@ -160,7 +160,7 @@ export const clientsList = [
     position: "Full-Stack Developer",
     tools:
       "Data Structure · Algorithms · PostgreSQL · Python · MongoDB · React.js · Node.js · Angular · Express.js · TypeScript",
-    skills: "Python · Algorithms · Data Structure · PostgreSQL · Node.js",
+    skills: "Python · React.js · Node.js · PostgreSQL · Node.js",
     date: "February, 2022 - July 2022",
     description:
       "Hired to finish a migration from legacy projects to new ones. Worked on five projects, worked with high-security rules and VPN. Client in partnership with ArkusNexus. Developed Python script to reduce database migration time from 3 hours to 20 minutes for large and complex databases. Managed databases with PostgreSQL, GraphQL, and Hasura for reliable and scalable data storage and retrieval. Addressed front-end and back-end issues with Node.js, C#, React, and Angular for high-quality results. Documented project knowledge to share among team members. Collaborated effectively to exceed client expectations",
@@ -169,7 +169,7 @@ export const clientsList = [
   {
     client: "Martin Marietta",
     position: "Full-Stack Developer",
-    skills: "TypeScript · MongoDB · React.js · Node.js",
+    skills: "React.js · MongoDB · Node.js",
     tools: "Material-UI · MongoDB · React.js · Node.js · TypeScript · Tailwind",
     date: "September 2021 - February 2022",
     description:

@@ -11,7 +11,7 @@ const Main = () => {
         <div className="profile-info">
           <img src={profile} alt="Gonzalo Simon" className="profile-img" />
           <div className="profile-text">
-            <h1>Gonzalo Simon</h1>
+            <h1>Gonzalo S. Aguilar</h1>
             <p><span role="img" aria-label="location">📍</span>Córdoba, Argentina</p>
             <p><span role="img" aria-label="tech">💻</span>TypeScript, Reactjs & Nodejs</p>
             <p className="contact-mail">📧 aguilargzb@gmail.com</p>

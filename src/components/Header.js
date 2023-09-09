@@ -32,7 +32,7 @@ const Header = () => {
       <div className="navigation">
         <div className="simon">
           <Link to="/" className="active">
-            Gonzalo Simón
+            Gonzalo S. Aguilar
           </Link>
           <div className="speciality">Software Developer</div>
           <button onClick={toggleTheme} className="theme-toggle-button">
