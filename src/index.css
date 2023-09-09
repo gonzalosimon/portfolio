@@ -16,15 +16,12 @@ code {
 
 /* Default (light) theme */
 body[data-theme="light"] {
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   color: #000000;
 }
 
-body[data-theme="light"] .header, 
-body[data-theme="light"] .overlay,
-body[data-theme="light"] .nav,
-body[data-theme="light"] .footer {
-  background-color: #fff;
+body[data-theme="light"] .overlay {
+  background-color: #fcfcfc;
   color: #000000;
 }
 
@@ -34,10 +31,7 @@ body[data-theme="dark"] {
   color: #ffffff;
 }
 
-body[data-theme="dark"] .header,
-body[data-theme="dark"] .overlay,
-body[data-theme="dark"] .nav,
-body[data-theme="dark"] .footer {
+body[data-theme="dark"] .overlay {
   background-color: #243447;
   color: #ffffff;
 }

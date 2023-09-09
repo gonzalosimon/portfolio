@@ -39,10 +39,10 @@ const Main = () => {
             I'm a Software Engineer with more than three years of experience in the industry.
           </p>
           <p>
-            I initiated my programming at 16 years old and pursued two years of study in Computer Engineering. In addition, I completed two intensive boot camps. Seeking to solidify my expertise further, I transitioned my academic focus to Computer Science at Universidad Nacional de Córdoba, where I have been cultivating a robust foundation in software development.
+            I started programming at 16 years old and pursued two years of study in Computer Engineering. In addition, I completed two intensive boot camps. Seeking to solidify my expertise further, I transitioned my academic focus to Computer Science at Universidad Nacional de Córdoba, where I have been cultivating a robust foundation in software development.
           </p>
           <p>
-            I am deeply passionate about problem-solving and the implementation of agile methodologies. I value the ability to empathize with customers and understand their needs. Outside my technical pursuits, I maintain a balanced lifestyle through fitness, reading, and guitar playing. Committed to continuous learning, I seize every opportunity to contribute positively to the technology sector.
+            I'm deeply passionate about problem-solving and the implementation of agile methodologies. I value the ability to empathize with customers and understand their needs. Outside my technical pursuits, I maintain a balanced lifestyle through fitness, reading, and guitar playing. Committed to continuous learning, I seize every opportunity to contribute positively to the technology sector.
           </p>
 
           <div className="about-links">

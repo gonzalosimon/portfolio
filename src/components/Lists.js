@@ -179,7 +179,7 @@ export const clientsList = [
   {
     client: "Retia Soft",
     position: "React Developer",
-    skills: "React.js · JavaScript · Angular",
+    skills: "React.js · JavaScript · Angular · Material UI",
     tools:
       "Data Structures · Front-End Development · MongoDB · React.js · JavaScript · Node.js · Angular",
     date: "April 2021 - September 2021",

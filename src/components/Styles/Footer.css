@@ -34,8 +34,11 @@
   width: 100%;
 }
 
+.social, .social-last {
+  background-color: #000;
+}
+
 .footer .social-links .social {
-  background-color: #000000;
   border-radius: 32px;
   width: 32px;
   height: 32px;
@@ -43,7 +46,6 @@
 }
 
 .footer .social-links .social-last {
-  background-color: #000000;
   border-radius: 32px;
   width: 32px;
   height: 32px;
