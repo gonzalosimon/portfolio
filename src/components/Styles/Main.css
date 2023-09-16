@@ -44,6 +44,7 @@ body {
 
 .text-main-section p {
   line-height: 1.5;
+  text-align: justify;
 }
 
 .about-links {
@@ -109,5 +110,13 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0;
+  }
+
+  .profile-column {
+    margin: 0;
+  }
+
+  .profile-img {
+    width: 100%;  
   }
 }
