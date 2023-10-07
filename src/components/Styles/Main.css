@@ -18,8 +18,9 @@ body {
 
 .profile-img {
   border-radius: 5%;
-  width: 300px;
+  max-width: 300px;
   margin-right: 40px;
+  width: 100%;
 }
 
 .profile-text {

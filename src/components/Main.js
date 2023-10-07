@@ -7,6 +7,8 @@ import "./Styles/Experience.css";
 import { Link } from "react-router-dom";
 
 const Main = () => {
+  const CV = `https://drive.google.com/file/d/1nRPSecl_RdvZvpZvkMoQ_qqZfxMd3qYf/view?usp=drive_link`;
+
   return (
     <div className="body">
       <div className="container">
@@ -14,18 +16,21 @@ const Main = () => {
           <img src={profile} alt="Gonzalo Simon" className="profile-img" />
           <div className="profile-text">
             <h1>Gonzalo S. Aguilar</h1>
+
             <p>
               <span aria-label="location" role="img">
                 📍
               </span>
               Córdoba, Argentina
             </p>
+
             <p>
               <span aria-label="technologies" role="img">
                 💻
               </span>
               TypeScript, Reactjs & Nodejs
             </p>
+
             <p className="contact-mail">
               <span aria-label="email" role="img">
                 📧
@@ -34,10 +39,12 @@ const Main = () => {
             </p>
           </div>
         </div>
+
         <div className="text-main-section">
           <p>
             I'm a Software Engineer with more than three years of experience in the industry.
           </p>
+
           <p>
             I started programming at 16 years old and pursued two years of study in Computer Engineering. In addition, I completed two intensive boot camps. Seeking to solidify my expertise further, I transitioned my academic focus to Computer Science at Universidad Nacional de Córdoba, where I have been cultivating a robust foundation in software development.
           </p>
@@ -46,9 +53,10 @@ const Main = () => {
           </p>
 
           <div className="about-links">
-            <a href="https://drive.google.com/file/d/1v_d6wG6EgxIWoRn0Mf1w0NxXJdEyumah/view?usp=sharing">
+            <a href={CV}>
               MY CV
             </a>
+
             <a href="https://www.linkedin.com/in/gonzalo-simon-aguilar/">
               LINKEDIN
             </a>
@@ -67,8 +75,10 @@ const Experience = () => {
           <div className="profile-column">
             <Main />
           </div>
+          
           <div className="experience-column">
             <h1>Experiences</h1>
+
             <div className="experience-grid">
               {clientsList.map((client) => (
                 <Link to={`/experience/${client.client}`} key={client.index}>

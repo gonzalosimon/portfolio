@@ -35,9 +35,6 @@ const Header = () => {
             Gonzalo S. Aguilar
           </Link>
           <div className="speciality">Software Developer</div>
-          <button onClick={toggleTheme} className="theme-toggle-button">
-            Toggle Theme
-          </button>
         </div>
 
         <button
@@ -53,7 +50,7 @@ const Header = () => {
         </button>
 
         <div
-          className={`navigation-mobile overlay ${
+          className={`group-buttons navigation-mobile overlay ${
             hamburgerState === "on" ? "show" : "hide"
           }`}
         >
@@ -67,6 +64,10 @@ const Header = () => {
               lastItem
             />
           ))}
+          
+          <button onClick={toggleTheme} className="theme-toggle-button">
+            Toggle Theme
+          </button>
         </div>
 
         <div className="navigation-sub">
@@ -79,6 +80,10 @@ const Header = () => {
               lastItem
             />
           ))}
+
+          <button onClick={toggleTheme} className="theme-toggle-button">
+            Toggle Theme
+          </button>
         </div>
       </div>
     </div>
