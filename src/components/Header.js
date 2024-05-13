@@ -38,8 +38,8 @@ const Header = () => {
   return (
     <div className="header">
       <div className="navigation">
-        <div className="simon">
-          <Link to="/" className="active">
+        <div className="name-position">
+          <Link to="/" className="name-title">
             Gonzalo Simon Aguilar
           </Link>
 

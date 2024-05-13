@@ -5,6 +5,11 @@ export const menuItems = [
     className: "main",
   },
   {
+    label: "Experience",
+    to: "/experience",
+    className: "experience",
+  },
+  {
     label: "Projects",
     to: "/projects",
     className: "projects",
@@ -13,6 +18,7 @@ export const menuItems = [
     label: "Articles",
     to: "/articles",
     className: "articles",
+    lastItem: true,
   },
   // {
   //   label: "About",
@@ -134,8 +140,17 @@ export const projectsList = [
 
 export const clientsList = [
   {
+    client: "PAGOS360",
+    position: "Front-End Engineer",
+    skills: "Typescript, Next.js",
+    tools: "Led the front-end development bank platform: TypeScript and the latest version of Next.js. Created from scratch web platform, components & functionalities. Taken care of accessibility, safety & memory usage.",
+    date: "October, 2023 - Present",
+    description: "",
+    index: "6",
+  },
+  {
     client: "Figo Pet Insurance",
-    position: "Full-Stack Developer",
+    position: "Front-End Engineer",
     skills: "React Native · React.js · Redux · React-redux",
     tools:
       " IT Accessibility · Web Accessibility · React Native · React.js · JavaScript · Algorithms · Redux · React-redux",
@@ -146,7 +161,7 @@ export const clientsList = [
   },
   {
     client: "Nordhen",
-    position: "Full-Stack Developer",
+    position: "Full-Stack Engineer",
     tools:
       "React Native · MongoDB · Next.js · React.js · Node.js · PostgreSQL · TypeScript · Python",
     skills: "TypeScript · Next.js · React.js · Node.js · PostgreSQL",
@@ -157,7 +172,7 @@ export const clientsList = [
   },
   {
     client: "Playboy Group Inc",
-    position: "Full-Stack Developer",
+    position: "Full-Stack Engineer",
     tools:
       "Data Structure · Algorithms · PostgreSQL · Python · MongoDB · React.js · Node.js · Angular · Express.js · TypeScript",
     skills: "Python · React.js · Node.js · PostgreSQL · Node.js",
@@ -168,7 +183,7 @@ export const clientsList = [
   },
   {
     client: "Martin Marietta",
-    position: "Full-Stack Developer",
+    position: "Full-Stack Engineer",
     skills: "React.js · MongoDB · Node.js",
     tools: "Material-UI · MongoDB · React.js · Node.js · TypeScript · Tailwind",
     date: "September 2021 - February 2022",
@@ -178,7 +193,7 @@ export const clientsList = [
   },
   {
     client: "Retia Soft",
-    position: "React Developer",
+    position: "Front-End Engineer",
     skills: "React.js · JavaScript · Angular · Material UI",
     tools:
       "Data Structures · Front-End Development · MongoDB · React.js · JavaScript · Node.js · Angular",
@@ -189,7 +204,7 @@ export const clientsList = [
   },
   {
     client: "Freelance",
-    position: "Full-Stack Developer",
+    position: "Full-Stack Engineer",
     skills: "Next.js · React.js · Python, Node.js",
     tools: "Python · MongoDB · Next.js · React.js · Node.js",
     date: "December, 2019 - April 2021",

@@ -8,14 +8,7 @@ import Articles from './components/Articles.js';
 import Footer from './components/Footer.js';
 import Header from './components/Header';
 import JobDescription from './components/JobDescription';
-
-// Here's the new component that includes the Header and a specific Component
-const HeaderWithComponent = ({ component: Component }) => (
-  <>
-    <Header />
-    <Component />
-  </>
-);
+import Experience from './components/Schemas/Experience.js';
 
 const App = () => {
   useEffect(() => {
@@ -30,10 +23,12 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <Route exact path="/" component={() => <HeaderWithComponent component={Main} />} />
-      <Route path="/projects" component={() => <HeaderWithComponent component={Projects} />} />
-      <Route path="/articles" component={() => <HeaderWithComponent component={Articles} />} />
-      <Route path="/experience/:job" component={() => <HeaderWithComponent component={JobDescription} />} />
+      <Header />
+      <Route exact path="/" component={() => <Main />} />
+      <Route path="/projects" component={() => <Projects />} />
+      <Route path="/articles" component={() => <Articles />} />
+      <Route exact path="/experience" component={() => <Experience />} />
+      <Route path="/experience/:job" component={() => <JobDescription />} />
       <Footer />
     </BrowserRouter>
   );

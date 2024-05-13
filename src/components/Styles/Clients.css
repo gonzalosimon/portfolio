@@ -5,14 +5,18 @@
 }
 
 .client {
-  background: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  padding: 15px;
   transition: box-shadow 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  padding: 0 20px 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .client:hover {
@@ -20,25 +24,54 @@
 }
 
 .client-see-more {
- font-weight: bold;
+  font-weight: bold;
 }
 
-.downArrow{
-  filter: brightness(0) saturate(100%) invert(80%) sepia(64%) saturate(303%) hue-rotate(76deg) brightness(98%) contrast(107%);
+.client:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+  transform: scale(1.03);
+}
+
+.client-title,
+.client-subtitle,
+.client-date,
+.client-skills,
+.client-description {
+  margin-bottom: 10px;
+}
+
+.client-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+}
+
+.client-subtitle {
+  color: #555;
+  font-size: 18px;
+}
+
+.client-date,
+.client-skills {
+  color: #999;
+  font-size: 14px;
+}
+
+.client-description {
+  color: #777;
+  font-size: 14px;
+}
+
+.downArrow {
+  filter: brightness(0) saturate(100%) invert(80%) sepia(64%) saturate(303%)
+    hue-rotate(76deg) brightness(98%) contrast(107%);
 }
 
 .arrow-icon-container {
+  margin-top: 5px;
   display: flex;
   justify-content: space-between;
 }
-
-/* Mobile view */
-@media (max-width: 850px) {
-  .experience-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 
 .bounce {
   -moz-animation: bounce 3s infinite;
@@ -47,7 +80,11 @@
 }
 
 @-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -moz-transform: translateY(0);
     transform: translateY(0);
   }
@@ -60,8 +97,13 @@
     transform: translateY(-15px);
   }
 }
+
 @-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
@@ -74,8 +116,13 @@
     transform: translateY(-15px);
   }
 }
+
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -webkit-transform: translateY(0);

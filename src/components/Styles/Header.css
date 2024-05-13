@@ -95,7 +95,7 @@ a,
   border: none;
 }
 
-.header .navigation .simon {
+.header .navigation .name-position {
   font-size: 26px;
   line-height: 36px;
 }
@@ -200,6 +200,11 @@ a:hover {
 }
 
 @media (max-width: 800px) {
+  .header .speciality {
+    text-align: center;
+    font-size: large;
+  }
+
   .navigation-sub {
     display: none !important;
   }
@@ -226,7 +231,8 @@ a:hover {
 }
 
 @media (max-width: 500px) {
-  .hamburger-inner {
-    margin-left: 20px;
+  .header .speciality .name-title {
+    text-align: center;
+    font-size: 16px;
   }
 }

@@ -4,11 +4,7 @@
 
 .container {
   margin: 0 auto;
-}
-
-.profile-column {
-  margin-right: 25px;
-  margin-top: 10px;
+  width: 50%;
 }
 
 .profile-info {
