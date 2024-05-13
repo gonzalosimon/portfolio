@@ -21,7 +21,7 @@ body {
   animation: animationFrames ease 0.5s;
   animation-iteration-count: 1;
   transform-origin: 5% 5%;
-  animation-fill-mode: forwards; /*when the spec is finished*/
+  animation-fill-mode: forwards;
 }
 
 @keyframes animationFrames {

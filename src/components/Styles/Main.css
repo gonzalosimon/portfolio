@@ -1,5 +1,5 @@
-body {
-  background-color: #fbfbfb;
+.body {
+  font-size: 80%;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 
 .profile-img {
   border-radius: 5%;
-  max-width: 300px;
+  max-width: 240px;
   margin-right: 40px;
   width: 100%;
 }
@@ -28,13 +28,13 @@ body {
 }
 
 .profile-text h1 {
-  font-size: 28px;
+  font-size: x-large;
   color: #333;
   margin-bottom: 10px;
 }
 
 .profile-text p {
-  font-size: 16px;
+  font-size: 15px;
   color: #555;
 }
 
@@ -45,6 +45,7 @@ body {
 
 .text-main-section p {
   line-height: 1.5;
+  font-size: 14px;
   text-align: justify;
 }
 
@@ -68,7 +69,6 @@ body {
   transition: all 0.4s;
   display: flex;
   width: 100%;
-  justify-content: center;
   margin: 10px;
 }
 
@@ -105,6 +105,10 @@ body {
 }
 
 @media (max-width: 675px) {
+  body {
+    font-size: 100%;
+  }
+  
   .profile-info {
     flex-direction: column;
     display: flex;
@@ -118,6 +122,6 @@ body {
   }
 
   .profile-img {
-    width: 100%;  
+    width: 100%;
   }
 }

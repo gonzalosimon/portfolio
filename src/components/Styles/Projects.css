@@ -1,10 +1,11 @@
 .projects-intro {
   font-weight: 600;
-  font-size: 18px;
+  font-size: large;
 }
 
 .github-reference {
   text-decoration: underline !important;
+  font-size: large
 }
 
 .highlight_1 {
@@ -31,6 +32,10 @@
   transition: all 0.3s cubic-bezier(0.25, 1, 0.25, 1);
   padding: 20px;
   background-color: #fff;
+}
+
+.project-tools {
+  font-size: large;
 }
 
 .project:hover {

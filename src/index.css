@@ -14,9 +14,8 @@ code {
     monospace;
 }
 
-/* Default (light) theme */
 body[data-theme="light"] {
-  background-color: #fcfcfc;
+  background-color: #eeeeee;
   color: #000000;
 }
 
@@ -25,169 +24,126 @@ body[data-theme="light"] .overlay {
   color: #000000;
 }
 
-/* Dark theme */
-body[data-theme="dark"] {
-  background-color: #243447;
-  color: #ffffff;
+body[data-theme="dark"] .overlay {
+  background-color: #121212; 
+  color: #ccc; 
 }
 
-body[data-theme="dark"] .overlay {
-  background-color: #243447;
-  color: #ffffff;
+body[data-theme="dark"] {
+  background-color: #121212; 
+  color: #ccc; 
 }
 
 body[data-theme="dark"] a {
-  color: #bbbbbb;
+  color: #80ffaa; 
+  text-decoration: none; 
 }
 
 body[data-theme="dark"] h1,
 body[data-theme="dark"] h2,
 body[data-theme="dark"] h3,
-body[data-theme="dark"] p,
-body[data-theme="dark"] {
-  color: #dddddd;
+body[data-theme="dark"] p {
+  color: #ddd; 
 }
 
-body[data-theme="dark"] .project,
-body[data-theme="dark"] .article {
-  background-color: #1a2835;
+body[data-theme="dark"] .project, body[data-theme="dark"] .article {
+  background: linear-gradient(145deg, #1a2835, #16222b);
+  border: none !important;
+  border-radius: 10%;
   color: #ffffff;
+  border: 1px solid #2a3f55; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-body[data-theme="dark"] .article-default {
-  background-color: #1a2835;
-  color: #ffffff;
-  box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.35);
+body[data-theme="dark"] .hamburger-inner::after {
+  background-color: white !important;
+}
+body[data-theme="dark"] .hamburger-inner {
+  background-color: white !important;
 }
 
-body[data-theme="dark"] .article-title,
-body[data-theme="dark"] .article-subtitle {
-  color: #ffffff;
+body[data-theme="dark"] .hamburger-inner::before {
+  background-color: white;
 }
 
-body[data-theme="dark"] .article-date {
-  color: #b3b3b3;
+body[data-theme="dark"] .hamburger-inner {
+  background-color: white;
 }
 
-body[data-theme="dark"] .blog-reference {
-  color: #80ffaa;
-}
 
+body[data-theme="dark"] .article-default,
+body[data-theme="dark"] .job-description,
 body[data-theme="dark"] .client {
-  background-color: #1a2835;
+  background-color: #16222b; 
   color: #ffffff;
-  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-body[data-theme="dark"] .client:hover {
-  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.15);
+body[data-theme="dark"] .project:hover,
+body[data-theme="dark"] .client:hover,
+body[data-theme="dark"] .article:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
-body[data-theme="dark"] .client-title {
-  color: #80ffaa;
+body[data-theme="dark"] .project-title,
+body[data-theme="dark"] .article-title,
+body[data-theme="dark"] .job-title {
+  color: #80ffaa; 
+  font-weight: bold;
 }
 
+body[data-theme="dark"] .project-name,
+body[data-theme="dark"] .project-skills,
 body[data-theme="dark"] .client-subtitle,
 body[data-theme="dark"] .client-date,
 body[data-theme="dark"] .client-skills,
-body[data-theme="dark"] .client-description {
-  color: #ffffff;
-}
-
-body[data-theme="dark"] .job-description {
-  background-color: #1a2835;
-  color: #ffffff;
-  box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.35);
-}
-
-body[data-theme="dark"] .job-title,
+body[data-theme="dark"] .client-description,
 body[data-theme="dark"] .job-position,
 body[data-theme="dark"] .job-date,
 body[data-theme="dark"] .job-tools,
 body[data-theme="dark"] .job-description-text {
-  color: #ffffff;
-}
-
-body[data-theme="dark"] .job-skills li {
-  background: #2a3f55;
-  color: #ffffff;
-}
-
-body[data-theme="dark"] .button-back {
-  color: #ffffff;
-  background-color: #2a3f55;
-}
-
-body[data-theme="dark"] .project {
-  background-color: #1a2835;
-  color: #ffffff;
-  box-shadow:
-    0 1px 3px rgba(255, 255, 255, 0.12),
-    0 1px 2px rgba(255, 255, 255, 0.24);
-}
-
-body[data-theme="dark"] .project:hover {
-  box-shadow:
-    0 10px 20px rgba(255, 255, 255, 0.19),
-    0 6px 6px rgba(255, 255, 255, 0.23);
-}
-
-body[data-theme="dark"] .project-title {
-  color: #ffffff;
-}
-
-body[data-theme="dark"] .project-name,
-body[data-theme="dark"] .project-skills {
-  color: #b3b3b3;
+  color: #b3b3b3; 
 }
 
 body[data-theme="dark"] .highlight_1 {
-  background-color: #2a3f55;
+  color:rgba(255, 250, 180, 0.922);
+  background-color: transparent; 
 }
 
 body[data-theme="dark"] .highlight_2 {
-  background-color: #2a3f55;
+  color:rgba(219, 255, 166, 0.865);
+  background-color:transparent; 
 }
 
-body[data-theme="dark"] .client {
-  box-shadow: none;
-}
-
-body[data-theme="dark"] .client:hover {
-  box-shadow: none;
-  transform: scale(1);
-}
-
-body[data-theme="dark"] .article-default {
-  box-shadow: none;
-}
-
-body[data-theme="dark"] .project {
-  box-shadow: none;
-}
-
-body[data-theme="dark"] .project:hover {
-  box-shadow: none;
-}
-
-body[data-theme="dark"] .about-links a {
-  color: #80ffaa;
-  background-color: #1a2835;
-}
-
-body[data-theme="dark"] .about-links a:hover {
-  color: #ffffff;
-}
-
-body[data-theme="dark"] .theme-toggle-button {
-  background-color: #bbb;
-  color: #000;
+body[data-theme="dark"] .theme-toggle-button {  
+  background-color: #333; 
+  color: #80ffaa; 
 }
 
 body[data-theme="dark"] .theme-toggle-button:hover {
-  background-color: #ddd;
+  background-color: #444; 
+  color: #ffffff; 
 }
 
-body[data-theme="dark"] .job-description {
-  box-shadow: none;
+body[data-theme="dark"] .job-skill {
+  background-color: #2a3f55;
+}
+
+body[data-theme="dark"] .about-links a {
+  color: #dddddd;
+  background-color: #7878783f;
+}
+
+body[data-theme="dark"] .speciality {
+  color: white  ; 
+}
+
+body[data-theme="dark"] .about-links a:hover {
+  color: #f3f3f3;
+  background-color: #e4e4e43f;
+}
+
+body[data-theme="dark"] .button-back {
+  background-color: #243447; 
+  color: #ffffff; 
 }

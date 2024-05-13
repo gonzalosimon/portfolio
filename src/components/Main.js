@@ -6,61 +6,71 @@ import "./Styles/Main.css";
 import "./Styles/Experience.css";
 import { Link } from "react-router-dom";
 
-const Main = () => {
-  const CV = `https://drive.google.com/file/d/1nRPSecl_RdvZvpZvkMoQ_qqZfxMd3qYf/view?usp=drive_link`;
+const ProfileDescription = () => {
+  const CV = `https://drive.google.com/file/d/13C8S2HnLqeb0W657qffj4a6P17I0KR2d/view?usp=sharing`;
 
   return (
-    <div className="body">
-      <div className="container">
-        <div className="profile-info">
-          <img src={profile} alt="Gonzalo Simon" className="profile-img" />
-          <div className="profile-text">
-            <h1>Gonzalo S. Aguilar</h1>
+    <div className="container">
+      <div className="profile-info">
+        <img src={profile} alt="Gonzalo Simon" className="profile-img" />
+        <div className="profile-text">
+          <h1 className="profile-name-title">Gonzalo S. Aguilar</h1>
 
-            <p>
-              <span aria-label="location" role="img">
-                📍
-              </span>
-              Córdoba, Argentina
-            </p>
+          <p>
+            <span aria-label="location" role="img">
+              📍
+            </span>
+            Córdoba, Argentina
+          </p>
 
-            <p>
-              <span aria-label="technologies" role="img">
-                💻
-              </span>
-              TypeScript, Reactjs & Nodejs
-            </p>
+          <p>
+            <span aria-label="technologies" role="img">
+              💻
+            </span>
+            TypeScript, Reactjs & Nodejs
+          </p>
 
-            <p className="contact-mail">
-              <span aria-label="email" role="img">
-                📧
-              </span>
-              aguilargzb@gmail.com
-            </p>
-          </div>
+          <p>
+            <span aria-label="technologies" role="img">
+              🏫
+            </span>
+            University of London
+          </p>
+
+          <p className="contact-mail">
+            <span aria-label="email" role="img">
+              📧
+            </span>
+            aguilargzb@gmail.com
+          </p>
         </div>
+      </div>
 
-        <div className="text-main-section">
-          <p>
-            I'm a Software Engineer with more than three years of experience in the industry.
-          </p>
+      <div className="text-main-section">
+        <p>
+          I'm a Software Engineer with more than three years of experience in
+          the industry.
+        </p>
 
-          <p>
-            I started programming at 16 years old and pursued two years of study in Computer Engineering. In addition, I completed two intensive boot camps. Seeking to solidify my expertise further, I transitioned my academic focus to Computer Science at Universidad Nacional de Córdoba, where I have been cultivating a robust foundation in software development.
-          </p>
-          <p>
-            I'm deeply passionate about problem-solving and the implementation of agile methodologies. I value the ability to empathize with customers and understand their needs. Outside my technical pursuits, I maintain a balanced lifestyle through fitness, reading, and guitar playing. Committed to continuous learning, I seize every opportunity to contribute positively to the technology sector.
-          </p>
+        <p>
+          I began programming at the age of 16 and later pursued two years of
+          studies in Computer Engineering. Afterwards, I completed two intensive
+          boot camps and shifted my academic focus to Computer Science at the
+          niversity of London.
+          <span></span>
+        </p>
 
-          <div className="about-links">
-            <a href={CV}>
-              MY CV
-            </a>
+        <p>
+          Outside my technical pursuits, I maintain a balanced lifestyle through
+          fitness, reading, and guitar playing.
+        </p>
 
-            <a href="https://www.linkedin.com/in/gonzalo-simon-aguilar/">
-              LINKEDIN
-            </a>
-          </div>
+        <div className="about-links">
+          <a href={CV}>MY CV</a>
+
+          <a href="https://www.linkedin.com/in/gonzalo-simon-aguilar/">
+            LINKEDIN
+          </a>
         </div>
       </div>
     </div>
@@ -69,35 +79,41 @@ const Main = () => {
 
 const Experience = () => {
   return (
+    <div className="experience-column">
+      <h1>Experiences</h1>
+
+      <div className="experience-grid">
+        {clientsList.map((client) => (
+          <Link to={`/experience/${client.client}`} key={client.index}>
+            <Client
+              description={client.description}
+              client={client.client}
+              position={client.position}
+              skills={client.skills}
+              index={client.index}
+              date={client.date}
+            />
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+const Main = () => {
+  return (
     <div className="body">
       <section className="element-animation">
         <div className="grid-container">
           <div className="profile-column">
-            <Main />
+            <ProfileDescription />
           </div>
-          
-          <div className="experience-column">
-            <h1>Experiences</h1>
 
-            <div className="experience-grid">
-              {clientsList.map((client) => (
-                <Link to={`/experience/${client.client}`} key={client.index}>
-                  <Client
-                    description={client.description}
-                    client={client.client}
-                    position={client.position}
-                    skills={client.skills}
-                    index={client.index}
-                    date={client.date}
-                  />
-                </Link>
-              ))}
-            </div>
-          </div>
+          <Experience />
         </div>
       </section>
     </div>
   );
 };
 
-export default Experience;
+export default Main;

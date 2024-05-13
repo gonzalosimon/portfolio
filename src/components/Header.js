@@ -5,36 +5,45 @@ import "./Styles/Header.css";
 import "./Styles/Hamburgers.css";
 import MenuItem from "./MenuItem";
 import { menuItems } from "./Lists";
+import { MoonOutlined, SunOutlined } from "@ant-design/icons";
 
 const Header = () => {
   const [hamburgerState, setHamburgerState] = useState("off");
+  const [darkMode, setDarkMode] = useState(
+    () => localStorage.getItem("theme") || "light"
+  );
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    const theme = localStorage.getItem("theme");
-    document.body.setAttribute("data-theme", theme ? theme : "light");
+    const savedTheme = localStorage.getItem("theme") || "light";
+    setDarkMode(savedTheme);
+    document.body.setAttribute("data-theme", savedTheme);
   }, []);
 
-  const toggleMenu = () => {
-    setHamburgerState(hamburgerState === "off" ? "on" : "off");
-  };
-
+  const toggleMenu = () =>
+    setHamburgerState((prevState) => (prevState === "off" ? "on" : "off"));
   const toggleTheme = () => {
-    const body = document.body;
-    const newTheme =
-      body.getAttribute("data-theme") === "light" ? "dark" : "light";
-    body.setAttribute("data-theme", newTheme);
+    const newTheme = darkMode === "light" ? "dark" : "light";
+    setDarkMode(newTheme);
+    document.body.setAttribute("data-theme", newTheme);
     localStorage.setItem("theme", newTheme);
   };
+
+  const ThemeToggleButton = () => (
+    <button onClick={toggleTheme} className="theme-toggle-button">
+      {darkMode === "light" ? <MoonOutlined /> : <SunOutlined />}
+    </button>
+  );
 
   return (
     <div className="header">
       <div className="navigation">
         <div className="simon">
           <Link to="/" className="active">
-            Gonzalo S. Aguilar
+            Gonzalo Simon Aguilar
           </Link>
-          <div className="speciality">Software Developer</div>
+
+          <p className="speciality">Software Developer</p>
         </div>
 
         <button
@@ -64,10 +73,8 @@ const Header = () => {
               lastItem
             />
           ))}
-          
-          <button onClick={toggleTheme} className="theme-toggle-button">
-            Toggle Theme
-          </button>
+
+          <ThemeToggleButton />
         </div>
 
         <div className="navigation-sub">
@@ -81,9 +88,7 @@ const Header = () => {
             />
           ))}
 
-          <button onClick={toggleTheme} className="theme-toggle-button">
-            Toggle Theme
-          </button>
+          <ThemeToggleButton />
         </div>
       </div>
     </div>
