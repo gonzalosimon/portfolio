@@ -10,12 +10,12 @@ import { MoonOutlined, SunOutlined } from "@ant-design/icons";
 const Header = () => {
   const [hamburgerState, setHamburgerState] = useState("off");
   const [darkMode, setDarkMode] = useState(
-    () => localStorage.getItem("theme") || "light"
+    () => localStorage.getItem("theme") || "dark"
   );
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    const savedTheme = localStorage.getItem("theme") || "light";
+    const savedTheme = localStorage.getItem("theme") || "dark";
     setDarkMode(savedTheme);
     document.body.setAttribute("data-theme", savedTheme);
   }, []);

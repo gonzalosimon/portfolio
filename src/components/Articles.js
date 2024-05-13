@@ -8,6 +8,7 @@ const Articles = () => (
   <div className="body">
     <section className="element-animation">
       <h1>Articles</h1>
+
       <p className="articles-intro">
         You can check{" "}
         <a className="blog-reference" href="https://gonzalosimon.hashnode.dev/">
@@ -16,6 +17,7 @@ const Articles = () => (
         where I write about my projects. I explain the way I code and how I
         think my challenges and ideas.
       </p>
+
       {articlesList.map((article) => (
         <Article
           key={article.index}
