@@ -46,10 +46,9 @@ body[data-theme="dark"] p {
   color: #ddd; 
 }
 
-body[data-theme="dark"] .project, body[data-theme="dark"] .article {
+body[data-theme="dark"] .project, body[data-theme="dark"] .article-contents {
   background: linear-gradient(145deg, #1a2835, #16222b);
   border: none !important;
-  border-radius: 10%;
   color: #ffffff;
   border: 1px solid #2a3f55; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
