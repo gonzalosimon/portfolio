@@ -1,4 +1,4 @@
-import { Twitter, Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import { ModeToggle } from './ToggleTheme';
 
 export default function Navbar() {
