@@ -4,20 +4,10 @@ import React from 'react';
 import Image from 'next/image';
 import Navbar from './Navbar';
 import DownloadButton from './DownloadButton';
-import profileImage from '@/app/images/main_profile.jpg';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import profileImage from '@/public/main_profile.jpg';
+import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 
 export default function Main() {
-  const onButtonClick = () => {
-    const pdfUrl = "./../public/aguilar_cv.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "Gonzalo_Aguilar_CV.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   return (
     <section className="flex flex-col justify-center items-center relative my-8 p-12 max-[340px]:very-small bg-[rgb(var(--card-background))] rounded-sm shadow-lg shadow-black/40">
       <div className="absolute -top-16 left-1/2 transform -translate-x-1/2 bg-[#1c2432] rounded-full shadow-md">
