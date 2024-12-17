@@ -35,7 +35,7 @@ export default function Main() {
       </h1>
 
       <p className="mt-4 text-base text-center max-w-2xl">
-        I'm a developer with over five years of experience, specializing in web and mobile development using TypeScript.
+        I'm a software developer with over five years of experience, specializing in web and mobile development using TypeScript.
       </p>
 
       <p className="mt-4 text-base text-center max-w-2xl"><span aria-label="email" role="img">📧 </span>aguilargzb@gmail.com</p>
